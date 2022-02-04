@@ -1,0 +1,40 @@
+---
+title: Stoicism
+author: Barney
+date: 2020-08-08
+tags: philosophy
+---
+
+## A Brief History
+
+Before diving into what Stoicism teaches, let's summarise where it came from. The Stoics were a group of Greek philosophers living around 300 BC, who practised one of the Hellenistic philosophies called Stoicism (another you might have heard of is Epicureanism). Being a Hellenistic philosophy essentially means it was borne out of the Hellenistic period of history in Greece, which was characterised by the dominant spread of Greek culture and philosophical thought across Europe, Africa and Asia. I’m going to refrain from going into too much detail about the individuals behind Stoicism, instead focusing on the ideas. However, there are three that are certainly worth mentioning: Firstly, Marcus Aurelius. Called the “philosopher king”, he was a Roman emperor in the 2nd century AD and known as one of the five great rulers. Secondly there is Lucius Seneca, also known as Seneca the Younger. He was a statesman and adviser who also tutored the famous Nero before he became emperor. Finally, Epictetus. Born as a slave but eventually freed, he used his time to study and preach Stoic philosophy, focussing on practical implementation as opposed to theoretical study. Each of these men has at least one fantastic book worth reading, which I’ll elaborate on toward the end.
+
+## All About Control
+
+Now we know a little about who the Stoic were, let's dive into what they taught.
+
+Stoicism looks at the world as follows: There are some things that are within our control, and others that are outside of it. Of the things that are within our control, we can view them as either good, bad or neither good nor bad. Consequently in our opinions and preferences, we should desire what is good, be averse to what is bad, and be indifferent to that which is neither good nor bad. On the other hand there are the things that are not within our control. These things can be neither good nor bad, hence we should be indifferent to anything that happens that is outside our control. Instead, being grateful by desiring whatever outcome occurs. The stoics use the phrase “amor fati” (meaning “to love your fate”) to represent this concept.
+
+So the instruction is to take action to change the things that you can change so that you achieve more of the good and less of the bad. Meanwhile, be grateful for whatever comes your way if you cannot control it by wanting what you have instead of having what you want.
+
+## The Good, the Bad and the Indifferent
+
+So that sounds great, but what is the good and what is the bad? What should we desire and what should we avoid? The Stoics had some ideas on that too. Simply put, to achieve the good, an individual must act in accordance with nature. This means performing the role that they should be performing in their current time, place and life. They proposed that a person has many roles at any given time, ranging from the most fundamental to the most specific. The most fundamental role for anyone is that of a human being. The Stoics taught that we are all rational entities, and so in order to act in accordance with nature, we should both think and act in a purely rational manner. Beyond this, we should perform the more specific roles in our life, the meaning of which is best explained via an example. Suppose you are driving your family to the beach for a weekend away (and for simplicity assume I am talking about a man here). What are your roles then? First is the role of human being, requiring you to act and think rationally. Secondly, you are a father, whose role is to educate, love and care for his children. Thirdly you are a husband, and hence should love, respect and support your wife. Beyond this you are also a car driver, whose role is to get everyone in the car to the correct destination (the beach) in a safe and prompt fashion. Now, if you were to successfully do all of these things then you would be acting and thinking in accordance with nature, and this is what the Stoics would define as achieving the good.
+
+The other side of the coin is the bad. This is largely the opposite of the good as you would expect, meaning any action or thought that is not in accordance with nature. In addition to this, avoidance of the bad involves the avoidance of things such as overindulgence, voluptuary, laziness, dishonour, lack of self control and disloyalty. Hence, to avoid the bad one must act and think in accordance with nature, while simultaneously avoiding instances and temptations of that which is inherently bad.
+
+Finally, many philosophers have concerned themselves with the characteristics of the good, including the famous Aristotle (have a read of Ethics if you are interested in his thoughts). Over time this has lead to an entire branch of philosophical thought on the subject, which in itself could be seamlessly integrated into the Stoic approach.
+
+## Stoicism in the Modern Day
+
+Stoicism is clearly an ancient philosophy, otherwise I wouldn’t have needed to provide the little history lesson at the beginning. However, in the last few years the philosophy has grown in modern popularity as a result of modern authors publishing more accessible and readable interpretations than the originals. Take for example Ryan Holiday. I’m going to confess I haven’t read any of his books, but despite this I can clearly see how he has taken these ancient concepts and marketed them to those looking for more meaning or happiness in their lives today. Sadly I can’t yet come to my own conclusion of how close his ideas are to those of the original texts, but if I ever read one of his books, I’ll be sure to update this section to account for it.
+
+Secondly, the concepts of Stoicism that relate to control are some of the earliest observations of a concept that many people know more commonly as that of the locus of control. The idea is that those who focus on what is in their control, and believe that what happens to them is a result of their own actions tend to be more motivated, disciplined and happy in life than those who feel like everything in the world just happens to them. Sounds familiar right? Once again the ancient idea from the Stoics appears to have been re-marketed to fit the modern day world (although I have no evidence that the locus of control theory originated from Stoicism).
+
+Finally, the area of Cognitive Behavioural Therapy is a branch of psychology that focusses on changing physical reactions to situations in the body by changing the thought processes underlying them. I first noticed this link when, during a session of my own, my therapist recommended that I read Meditations by Marcus Aurelius (the Stoic emperor I mentioned during the history lesson). Since then I have noticed many parallels between the two areas, mostly to do with focussing on what is within your control, being grateful for that which is not, and acting in accordance with a set of values that you fully believe in.
+
+## Further Reading
+
+Now let's wrap up. The Stoicism elevator pitch is this: When something is within your control, where you can, act in accordance with your current role well and take action to move yourself toward what is good, meanwhile if something is outside of your control, hold no hopes on the outcome and simply be grateful for what occurs.
+
+If this sounds like something you’re interested in then there is a limit to how much more I can tell you about it, and as with almost anything, learning the original foundations of the topic will serve you best. Consequently I believe it’s almost always the best move to read the original texts and form your own opinions before you read a modern interpretation of them. Because of this, I would recommend you start off with what I’m going to call the “big three”: Meditations by Marcus Aurelius, Letters from a Stoic by Seneca, and the Discourses and Handbook of Epictetus. These are the three books that I read before writing this, and they offer quite different views of the philosophy given the different backgrounds of each individual.

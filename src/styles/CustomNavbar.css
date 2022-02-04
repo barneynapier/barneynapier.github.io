@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #363636;
+  color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  border-radius: 0px;
+  top: 0;
+  font-size: 22px;
+  width: 100%;
+  max-width: 100vw;
+  margin-top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.navbrand {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 2px;
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+.navbrand:hover {
+  color: darkgray;
+}
+
+.navtabs {
+  float: right;
+  padding-right: 10px;
+}
