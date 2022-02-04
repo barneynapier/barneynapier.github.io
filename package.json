@@ -1,7 +1,6 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
-  "homepage": "https://barney-n.github.io/personal-site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^9.3.2",
@@ -14,8 +13,6 @@
     "typeface-raleway": "0.0.75"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
