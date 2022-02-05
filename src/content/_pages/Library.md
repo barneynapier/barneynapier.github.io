@@ -2,6 +2,8 @@
 Page: Reading List
 ---
 
+Books in **bold** I have read.
+
 # Non-Fiction
 
 ## Biography
