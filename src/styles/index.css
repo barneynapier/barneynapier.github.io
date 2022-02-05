@@ -7,38 +7,16 @@ body {
   background-color: whitesmoke;
 }
 
-/* Things not in the navbar go in a content wrapper (for margins etc) */
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 3% 0 3%;
-  float: none;
-  margin-bottom: 5%;
-  line-height: 30px;
-}
-
-a,
-.link {
+a.link {
   text-decoration: underline;
   color: inherit;
 }
 
-a:hover,
 .link:hover {
-  color: rgb(141, 170, 233);
+  color: gray;
 }
 
-input {
-  margin: 5px;
-  outline: none;
-  font-size: 14px;
-  font-family: inherit;
-  width: 60%;
-  height: 30px;
-  font: inherit;
-  text-align: left;
-}
-/* Use these headers to style CKeditor the same way as CKeditor */
+/* Use these headers to style markdown */
 
 h1 {
   font-weight: normal;
