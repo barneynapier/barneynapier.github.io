@@ -6,6 +6,7 @@ import AboutPage from "./pages/About";
 import PostPage from "./pages/PostPage";
 import AllPosts from "./pages/AllPosts";
 import NotFound from "./pages/NotFound";
+import Library from "./pages/Library";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<AllPosts />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/post/:id" element={<PostPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

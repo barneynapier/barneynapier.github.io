@@ -12,6 +12,7 @@ export default function CustomNavbar() {
         </Link>
         <span className="navtabs">
           <CustomNavlink to="/" text="Home" />
+          <CustomNavlink to="/library" text="Library" />
           <CustomNavlink to="/about" text="About" />
         </span>
       </nav>

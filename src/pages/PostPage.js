@@ -27,7 +27,7 @@ const PostPage = () => {
   return (
     <Layout>
       <div className="post">
-        <h2>{fetchedPost.title}</h2>
+        <h1>{fetchedPost.title}</h1>
         <small>
           Published on {fetchedPost.date} by {fetchedPost.author}
         </small>
