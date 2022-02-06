@@ -10,6 +10,13 @@ It's commonly said that explaining something helps you learn it, so you could sa
 - **Chess**
 - **Poker**
 
+## Contact
+
+- Twitter
+- bnapier.eth
+
+## Projects
+
 Since starting work my little projects have taken a backseat, but the main ones that I've worked on are:
 
 ### Libry
