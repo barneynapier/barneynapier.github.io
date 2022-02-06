@@ -77,7 +77,7 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - Artificial Intelligence - Russell & Norvig
 - Introduction to the Theory of Computation - Michael Sipser
 - Quantum Computing Since Democritus - Scott Aaronson
-- Textbooks (courtesy of [teachyourselfcs.com](www.teachyourselfcs.com))
+- Textbooks (courtesy of [teachyourselfcs.com](https://www.teachyourselfcs.com))
   - The structure and interpretation of computer programs - Gerald Sussman & Hal Ableson
   - The Algorithm Design Manual - Steven Skiena
   - Computer Systems: A Programmer's Perspective - Randal Bryant
