@@ -2,19 +2,19 @@
 Page: Reading List
 ---
 
-Books in **bold** I have read.
+Books in **bold** I have read. Books with a \* I found particularly great.
 
 # Non-Fiction
 
 ## Biography
 
-- **Surely You're Joking Mr Feynman** - Richard Feynman
+- **\*Surely You're Joking Mr Feynman** - Richard Feynman
 - **Don't You have time to Think** - Richard Feynman
 - **Autobiography of Benjamin Franklin** - Benjamin Franklin
 - **A Million Miles in a Thousand Years** - Donald Miller
 - **Reasons to Stay Alive** - Matt Haig
 - **The Youngs** - Jesse Fink
-- **Mans Search for Meaning** - Victor Frankl
+- **\*Mans Search for Meaning** - Victor Frankl
 - **A Man for All Markets** - Edward Thorpe
 - **Muhammad Ali - His Life and Times** - Thomas Hauser
 - **Dear Lupin** - Robert Mortimer
@@ -49,7 +49,7 @@ Books in **bold** I have read.
 
 - **Buy-ology** - Martin Lindstrom
 - **The Personal MBA** - Josh Kaufman
-- **Zero to One** - Peter Thiel
+- **\*Zero to One** - Peter Thiel
 - **The 4 Hour Work-Week** - Tim Ferriss
 - The lean startup - Eric Reese
 - Never split the difference - Chris Voss
@@ -58,30 +58,36 @@ Books in **bold** I have read.
 - Where good ideas come from - Steven Johnson
 - The box - Marc levinson
 
+## Complex Systems
+
+- **The Quark and the Jaguar** - Murray Gell-Mann
+- Godel, Escher, Bach - Douglas Hofstadter
+- The Beginning of Infinity - David Deutsch
+- Complexity - Mitchell Waldrop
+- Concilience - E. O. Wilson
+
 ## Computer Science
 
 - **Feynman Lectures on Computation** - Richard Feynman
-- **Algorithms to Live By** - Brian Christian & Tom Griffiths
-- **The Art of Doing Science and Engineering** - Richard Hamming
+- **\*Algorithms to Live By** - Brian Christian & Tom Griffiths
+- **\*The Art of Doing Science and Engineering** - Richard Hamming
 - Programming the Universe - Seth Lloyd
 - Superintelligence - Nick Bostrom
 - Working in Public - Nadia Eghbal
 - Artificial Intelligence - Russell & Norvig
 - Introduction to the Theory of Computation - Michael Sipser
 - Quantum Computing Since Democritus - Scott Aaronson
-
-## CS Textbooks
-
-- The structure and interpretation of computer programs - Gerald Sussman & Hal Ableson
-- The Algorithm Design Manual -Steven Skiena
-- Computer Systems: A Programmer's Perspective - Randal Bryant
-- Mathematics for Computer Science - Tom Leighton
-- Operating Systems: Three Easy Pieces - Arpaci-Dusseau Brothers
-- Computer Networking: A Top-Down Approach - Jim Kurose
-- Readings in Database Systems - Joseph Hellerstein
-- Crafting Interpreters - Bob Nystrom
-- Distributed systems 3rd edition - Maarten Van Steen
-- Language implementation patterns - Terrence Parr
+- Textbooks (courtesy of [teachyourselfcs.com](www.teachyourselfcs.com))
+  - The structure and interpretation of computer programs - Gerald Sussman & Hal Ableson
+  - The Algorithm Design Manual - Steven Skiena
+  - Computer Systems: A Programmer's Perspective - Randal Bryant
+  - Mathematics for Computer Science - Tom Leighton
+  - Operating Systems: Three Easy Pieces - Arpaci-Dusseau Brothers
+  - Computer Networking: A Top-Down Approach - Jim Kurose
+  - Readings in Database Systems - Joseph Hellerstein
+  - Crafting Interpreters - Bob Nystrom
+  - Distributed systems 3rd edition - Maarten Van Steen
+  - Language implementation patterns - Terrence Parr
 
 ## Decision Making
 
@@ -121,7 +127,7 @@ Books in **bold** I have read.
 - **The Way of the Turtle** - Curtis Faith
 - **Harrimans Book of Investing Rules** - Christopher Parker
 - **Rich Dad Poor Dad** - Robert Kiyosaki
-- **Against the Gods** - Peter Bernstein
+- **\*Against the Gods** - Peter Bernstein
 - The Essays of Warren Buffet (Cunninham 4th Edition) - Warren Buffet
 - Security Analysis - Benjamin Graham & Graham Dodd
 - Fooled By Randomness, - Nassim Taleb
@@ -135,7 +141,7 @@ Books in **bold** I have read.
 
 ## History
 
-- **A Peoples History of the United States** - Howard Zinn
+- **\*A Peoples History of the United States** - Howard Zinn
 - **A Little History of the World** - Ernst Gombrich
 - **Homo Deus** - Yuval Noah Harari
 - **The Lessons of History** - Will & Ariel Durant
@@ -160,20 +166,12 @@ Books in **bold** I have read.
 - Making the modern world - Valcav Smil
 - The Romantic Movement - Allain de Botton
 
-## Knowledge
-
-- **The Quark and the Jaguar** - Murray Gell-Mann
-- Godel, Escher, Bach - Douglas Hofstadter
-- The Beginning of Infinity - David Deutsch
-- Complexity - Mitchell Waldrop
-- Concilience - E. O. Wilson
-
 ## Maths & Stats
 
 - **How to solve it** - George Polya
 - **How to lie with statistics** - Darell Huff
 - **Black Swan** - Nassim Taleb
-- **Antifragile** - Nassim Taleb
+- **\*Antifragile** - Nassim Taleb
 - **Skin in the Game** - Nassim Taleb
 - Elements of geometry - Euclid
 - Introduction to mathematics - Whitehead
@@ -226,7 +224,7 @@ Books in **bold** I have read.
 
 ## Physics
 
-- **The Character of Physical Law** - Richard Feynman
+- **\*The Character of Physical Law** - Richard Feynman
 - **7 Brief Lessons in Physics** - Carlo Rovelli
 - **A Brief History of Time** - Stephen Hawking
 - Brief Answers to the big Questions - Steven Hawking
@@ -243,7 +241,7 @@ Books in **bold** I have read.
 - Scientific Freedom - Donald W. Braben
 - One Man's Systems Engineering - Westerman
 - Physics for Future Presidents - Robert Muller
-- The Born-Einstein Letters
+  The Born-Einstein Letters
 
 ## Poker
 
@@ -257,11 +255,11 @@ Books in **bold** I have read.
 
 ## Productivity
 
-- **Smarter Better Faster** - Charles Duhigg
+- **\*Smarter Better Faster** - Charles Duhigg
 - **The Organised Mind** - Daniel Levitin
 - **Deep Work** - Cal Newport
 - **The Shallows** - Nicholas Carr
-- **How To Read A Book** - Mortimer Adler
+- **\*How To Read A Book** - Mortimer Adler
 - **Principles** - Ray Dalio
 - **Black Box Thinking** - Matthew Syed
 - Flow - Mihaly Csikszentmihalyi
@@ -274,14 +272,14 @@ Books in **bold** I have read.
 ## Psychology
 
 - **The Upside of Stress** - Kelly McGonigal
-- **Influence** - Robert Cialdini
+- **\*Influence** - Robert Cialdini
 - **Thinking Fast And Slow** - Daniel Kahneman & Amos Tversky
 - **Feel the fear and do it anyway** - Susan Jeffers
 - **The Good Psychopaths Guide to Success** - Andy McNab & Kevin Dutton
-- **The Subtle Art of Not Giving a Fuck** - Mark Manson
+- **\*The Subtle Art of Not Giving a Fuck** - Mark Manson
 - **Science of meditation** - Daniel Goleman & Richard Davidson
 - **The Inner Game of Tennis** - Timothy Gallwey
-- **The Art of Learning**- Josh Waitzkin
+- **The Art of Learning ** - Josh Waitzkin
 - **The Art of Happiness** - Dalai Lama
 - **The Power of Habit** - Charles Duhigg
 - **The Power of Now** - Eckhart Tolle
@@ -306,7 +304,7 @@ Books in **bold** I have read.
 ## Relationships
 
 - **How to talk to anyone** - Leil Lowndes
-- **How to Win Friends and Influence People** - Dale Carnegie
+- **\*How to Win Friends and Influence People** - Dale Carnegie
 - **Do you talk funny?** - David Nihill
 - **Shame and Codependency** - Darlene Lancer
 - **Models** - **Mark Manson**
@@ -327,8 +325,8 @@ Books in **bold** I have read.
 
 # Fiction
 
-- **War and Peace** - Leo Tolstoy
-- **The old man and the sea** - Ernest Hemingway
+- **\*War and Peace** - Leo Tolstoy
+- **\*The old man and the sea** - Ernest Hemingway
 - **The Picture of Dorian Gray** - Oscar Wilde
 - **Women** - Charles Bukowski
 - **Crime and Punishment** - Fyodor Dostoyevsky
@@ -336,7 +334,7 @@ Books in **bold** I have read.
 - **Factotum** - Charles Bukowski
 - **Pride and Prejudice** - Jane Austen
 - **Flash Boys** - Michael Lewis
-- **The Brothers Karamazov** - Fyodor Dostoyevsky
+- **\*The Brothers Karamazov** - Fyodor Dostoyevsky
 - **Mornings on Horseback** - David McCullough
 - **The Immovable feast** - Ernest Hemingway
 - **Post Office** - Charles Bukowski
@@ -347,7 +345,7 @@ Books in **bold** I have read.
 - **Leaving the Atocha Station** - Ben Lerner
 - **Men without women** - Ernest Hemingway
 - **The Fall** - Albert Camus
-- **A Confederacy of Dunces** - John Kennedy Toole
+- **\*A Confederacy of Dunces** - John Kennedy Toole
 - The Gambler - Fyodor Dostoyevsky
 - Portrait of a Lady - Henry James
 - The count of Monte Cristo - Alexander Dumas
