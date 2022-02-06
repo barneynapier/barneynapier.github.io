@@ -60,7 +60,6 @@ const getPosts = () => {
           let data = JSON.stringify(sortedList);
           fs.writeFileSync("src/posts.json", data);
         }
-        console.log("Post ", i, post["title"]);
       });
     });
   });
@@ -112,7 +111,6 @@ const getPages = () => {
         pagelist.push(page);
         let data = JSON.stringify(pagelist);
         fs.writeFileSync("src/pages.json", data);
-        console.log("Page ", i, page["pageName"]);
       });
     });
   });

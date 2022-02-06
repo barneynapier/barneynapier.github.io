@@ -1,5 +1,5 @@
 ---
-Page: Reading List
+Page: Library
 ---
 
 Books in **bold** I have read. Books with a \* I found particularly great.
