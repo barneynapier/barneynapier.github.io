@@ -3,6 +3,9 @@ import { useParams, Navigate } from "react-router-dom";
 import Markdown from "react-markdown";
 import postlist from "../posts.json";
 import Layout from "../components/Layout";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 const PostPage = () => {
   const params = useParams();
@@ -32,7 +35,12 @@ const PostPage = () => {
           Published on {fetchedPost.date} by {fetchedPost.author}
         </small>
         <hr />
-        <Markdown linkTarget="_blank" children={fetchedPost.content} />
+        <Markdown
+          linkTarget="_blank"
+          children={fetchedPost.content}
+          remarkPlugins={[remarkMath]}
+          rehypePlugins={[rehypeKatex]}
+        />
       </div>
     </Layout>
   );
