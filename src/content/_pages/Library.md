@@ -18,10 +18,11 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **A Man for All Markets** - Edward Thorpe
 - **Muhammad Ali - His Life and Times** - Thomas Hauser
 - **Dear Lupin** - Robert Mortimer
-- Poor Charlie's Almanak  - Charlie Munger
+- **Behind the Mask** - Tyson Fury
+- **Mornings on Horseback** - David McCullough
 - Da vinci - Walter Isaacson
 - Einstein - Walter Isaacson
-- Come as you are - Michael Azerrad
+- Come As You Are - Michael Azerrad
 - The Rise of Theodore Roosevelt - Edmund Morris
 - On Writing - Steven King
 - The Power Broker - Robert Caro
@@ -33,9 +34,9 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - Means of Ascent - Robert Caro
 - Master of the Senate - Robert Caro
 - The Passage of Power - Robert Caro
-- Shoe dog - Phil knight
-- The everything store - Brad stone
-- Hidden Valley Road - Robert Kolker
+- Shoe Dog - Phil knight
+- The Everything Store - Brad stone
+- Down Under - Bill Bryson
 
 ## Biology
 
@@ -51,12 +52,12 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **The Personal MBA** - Josh Kaufman
 - **\*Zero to One** - Peter Thiel
 - **The 4 Hour Work-Week** - Tim Ferriss
-- The lean startup - Eric Reese
-- Never split the difference - Chris Voss
+- The Lean Startup - Eric Reese
+- Never Split The Difference - Chris Voss
 - The War of Art - Steven Pressfield
 - How Google Works - Eric Schmidt
-- Where good ideas come from - Steven Johnson
-- The box - Marc levinson
+- Where Good Ideas Come From - Steven Johnson
+- The Box - Marc levinson
 
 ## Complex Systems
 
@@ -65,6 +66,7 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - The Beginning of Infinity - David Deutsch
 - Complexity - Mitchell Waldrop
 - Concilience - E. O. Wilson
+- Micromotives and Macrobehaviours - Thomas Schelling
 
 ## Computer Science
 
@@ -91,13 +93,15 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 
 ## Decision Making
 
-- The Model Thinker - Scott Page
+- **The Model Thinker** - Scott Page
+- **\*Superforecasting** - Phil Tetlock
 - The Half-Life of Facts - Sam Arbesman
 - Thinking in bets - Annie Duke
 - Call sign chaos - Jim Mattis
 - Factfulness - Hans Rosling
 - The Almanak of Naval Ravikant
 - The Great Mental Models - Shane Parrish
+- Poor Charlie's Almanak  - Charlie Munger
 
 ## Design
 
@@ -128,7 +132,7 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **Harrimans Book of Investing Rules** - Christopher Parker
 - **Rich Dad Poor Dad** - Robert Kiyosaki
 - **\*Against the Gods** - Peter Bernstein
-- The Essays of Warren Buffet (Cunninham 4th Edition) - Warren Buffet
+- The Essays of Warren Buffet - Warren Buffet
 - Security Analysis - Benjamin Graham & Graham Dodd
 - Fooled By Randomness, - Nassim Taleb
 - The Intelligent Investor - Benjamin Graham
@@ -148,8 +152,8 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **21 Lessons for the 21st Century** - Yuval Noah Harari
 - **The Poverty of Historicism** - Karl Popper
 - **Sapiens** - Yuval Noah Harari
+- **Penguin book of modern speeches** - Penguin
 - A complete history of Great Britain - Simon Schama
-- Penguin book of modern speeches - Penguin
 - The prize - The Epic Quest for Oil, Money and Power - Daniel Yergin
 - Lincoln at Gettysburg - Gary Wills
 - The swerve - Stephen Greenblatt
@@ -204,7 +208,6 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **The Symposium** - Plato
 - **Enchiridion** - Epictetus
 - Discourse on Method - Descartes
-- Moment maker - Carlos Wittaker
 - The logic of scientific discovery - Karl Popper
 - How we die - Sherwin Nuland
 - On human understanding - John Locke
@@ -241,7 +244,7 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - Scientific Freedom - Donald W. Braben
 - One Man's Systems Engineering - Westerman
 - Physics for Future Presidents - Robert Muller
-  The Born-Einstein Letters
+- The Born-Einstein Letters
 
 ## Poker
 
@@ -287,7 +290,7 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **Self Compassion** - Kristen Neff
 - **The Shallows** - Nicholas Carr
 - **The Laws of Human Nature** - Robert Greene
-- How the mind works - Steven Pinker
+- How the Mind Works - Steven Pinker
 - The Wisdom of Psychopaths - Kevin Dutton
 - Principles of psychology - William James
 - On Form - Mike Brearly
@@ -335,7 +338,6 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **Pride and Prejudice** - Jane Austen
 - **Flash Boys** - Michael Lewis
 - **\*The Brothers Karamazov** - Fyodor Dostoyevsky
-- **Mornings on Horseback** - David McCullough
 - **The Immovable feast** - Ernest Hemingway
 - **Post Office** - Charles Bukowski
 - **Liars Poker** - Michael Lewis
@@ -346,9 +348,10 @@ Books in **bold** I have read. Books with a \* I found particularly great.
 - **Men without women** - Ernest Hemingway
 - **The Fall** - Albert Camus
 - **\*A Confederacy of Dunces** - John Kennedy Toole
+- **The Boy, the Mole, the Fox and the Horse** - Charlie Macksey
 - The Gambler - Fyodor Dostoyevsky
 - Portrait of a Lady - Henry James
-- The count of Monte Cristo - Alexander Dumas
+- The Count of Monte Cristo - Alexander Dumas
 - Dracula - Bram Stoker
 - Frankenstein - Mary Shelley
 - Moby Dick - Herman Melville
