@@ -117,5 +117,5 @@ const getPages = () => {
   return;
 };
 
-getPosts();
+// getPosts();
 getPages();
