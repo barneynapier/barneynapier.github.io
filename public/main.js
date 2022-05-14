@@ -38,7 +38,7 @@ function getPost(file) {
     const metadata = parseMetadata({ lines, metadataIndices });
     const content = parseContent({ lines, metadataIndices });
     post = {
-      id: metadata.title.toLowerCase().replace("-", "_"),
+      id: metadata.title.toLowerCase().replaceAll(" ", "-"),
       title: metadata.title ? metadata.title : "No title given",
       author: metadata.author ? metadata.author : "No author given",
       date: metadata.date ? metadata.date : "No date given",

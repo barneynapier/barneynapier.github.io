@@ -9,7 +9,7 @@ import "katex/dist/katex.min.css";
 
 const PostPage = () => {
   const params = useParams();
-  const validId = parseInt(params.id);
+  const validId = params.id;
   if (!validId) {
     return <Navigate to="/404" />;
   }
