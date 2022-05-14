@@ -7,7 +7,7 @@ export default function Library() {
   return (
     <Layout>
       <div className="page-content">
-        <Markdown linkTarget="_blank" children={pages[1].content} />
+        <Markdown linkTarget="_blank" children={pages["Library"].content} />
       </div>
     </Layout>
   );

@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <Layout>
       <div className="page-content">
-        <Markdown linkTarget="_blank" children={pages[0].content} />
+        <Markdown linkTarget="_blank" children={pages["About"].content} />
       </div>
     </Layout>
   );
