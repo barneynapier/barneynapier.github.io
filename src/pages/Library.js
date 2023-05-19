@@ -2,7 +2,7 @@ import React from "react";
 import pages from "../pages.json";
 import Markdown from "react-markdown";
 import Layout from "../components/Layout";
-
+// Currently not used in website. Could remove
 export default function Library() {
   return (
     <Layout>

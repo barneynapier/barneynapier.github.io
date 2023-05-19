@@ -1,6 +1,5 @@
 ---
 title: Hash Sets and Organisation
-author: Barney
 date: 2021-07-12
 tags: computer science
 ---

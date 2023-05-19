@@ -19,7 +19,6 @@ const PostPage = () => {
     if (validId === post.id) {
       fetchedPost.title = post.title ? post.title : "No title given";
       fetchedPost.date = post.date ? post.date : "No date given";
-      fetchedPost.author = post.author ? post.author : "No author given";
       fetchedPost.content = post.content ? post.content : "No content given";
       postExists = true;
     }
@@ -31,9 +30,7 @@ const PostPage = () => {
     <Layout>
       <div className="post">
         <h1>{fetchedPost.title}</h1>
-        <small>
-          Published on {fetchedPost.date} by {fetchedPost.author}
-        </small>
+        <small>Published on {fetchedPost.date}</small>
         <hr />
         <Markdown
           linkTarget="_blank"

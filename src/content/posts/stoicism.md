@@ -1,6 +1,5 @@
 ---
 title: Stoicism
-author: Barney
 date: 2020-08-08
 tags: philosophy
 ---

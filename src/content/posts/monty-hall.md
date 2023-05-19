@@ -1,6 +1,5 @@
 ---
 title: Monty Hall
-author: Barney
 date: 2020-09-05
 tags: maths
 ---

@@ -1,8 +1,9 @@
 const path = require("path");
 const fs = require("fs");
 
-const postFolder = path.join(__dirname, "../src/content/_posts");
-const pageFolder = path.join(__dirname, "../src/content/_pages");
+const postFolder = path.join(__dirname, "../src/content/posts");
+const pageFolder = path.join(__dirname, "../src/content/pages");
+const bookFolder = path.join(__dirname, "../src/content/books");
 
 function getMetadataIndices(acc, elem, i) {
   if (/^---/.test(elem)) {
@@ -105,5 +106,36 @@ function translatePages() {
   return;
 }
 
+function translateBooks() {
+  let bookDict = {};
+  fs.readdir(bookFolder, (err, files) => {
+    if (err) {
+      console.log(err);
+    } else {
+      // Get each book
+      files.forEach((file, i) => {
+        let book;
+        fs.readFile(`${bookFolder}/${file}`, "utf8", (err, contents) => {
+          const lines = contents.split("\n");
+          const metadataIndices = lines.reduce(getMetadataIndices, []);
+          const metadata = parseMetadata({ lines, metadataIndices });
+          const content = parseContent({ lines, metadataIndices });
+          book = {
+            bookName: metadata.book,
+            content: content,
+          };
+          bookDict[metadata.book] = book;
+          console.log(`Pushed book: ${metadata.book}`);
+          // These two lines shouldnt need to be called in each loop, only need once
+          let data = JSON.stringify(bookDict);
+          fs.writeFileSync("../src/books.json", data);
+        });
+      });
+    }
+  });
+  return;
+}
+
 translatePosts();
 translatePages();
+translateBooks();
