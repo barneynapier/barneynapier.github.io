@@ -7,6 +7,7 @@ import PostPage from "./pages/PostPage";
 import AllPosts from "./pages/AllPosts";
 import NotFound from "./pages/NotFound";
 import AllBooks from "./pages/AllBooks";
+import BookPage from "./pages/BookPage";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/bookshelf" element={<AllBooks />} />
         <Route path="/post/:id" element={<PostPage />} />
+        <Route path="/book/:id" element={<BookPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

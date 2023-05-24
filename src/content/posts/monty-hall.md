@@ -18,7 +18,7 @@ Here's the code:
 import numpy as np
 import pandas as pd
 def simulate_game():
-    # Create 3 doors, one randomly containing a car and the other two containing goats
+    # Create 3 doors
     door_list = ['rand1', 'rand2', 'rand3']
     door_list[door_list.index(np.random.choice(door_list))] = 'car'
     for i in range(len(door_list)):

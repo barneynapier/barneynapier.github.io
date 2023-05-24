@@ -15,11 +15,15 @@ const AllBooks = () => {
               <div key={i} className="book-card">
                 <p>
                   {" "}
-                  <Link className="link" to={`/post/${book.id}`}>
-                    {book.title}
+                  <Link className="link" to={`/book/${book.id}`}>
+                    <img
+                      alt={book.title}
+                      src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`}
+                    ></img>
+                    {/* {book.title} */}
                   </Link>
-                  {",  "}
-                  <text className="date">{book.date}</text>
+                  {/* {",  "} */}
+                  {/* <text className="date">{book.date}</text> */}
                 </p>
               </div>
             );
