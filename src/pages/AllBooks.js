@@ -7,7 +7,13 @@ import "../styles/AllBooks.css";
 const AllBooks = () => {
   return (
     <Layout>
-      <div className="welcome-message">This is my bookshelf</div>
+      <div className="welcome-message">
+        All reviews of books are independent and my own. If you disagree, well
+        then fair enough. At some point I might include Amazon affiliate links
+        to each book, as its non-intrusive advertising and if you're getting the
+        book anyway then what's the harm in my referring you. But for now that's
+        not the case.
+      </div>
       <div className="booklist">
         {booklist.length &&
           booklist.map((book, i) => {

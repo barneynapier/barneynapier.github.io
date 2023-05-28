@@ -4,3 +4,4 @@ TODO:
 
 - Fix translation function sorting order
 - Make translation function flexible to args of metadata, dont force them
+- Make bookshelf a grid
