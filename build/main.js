@@ -154,6 +154,6 @@ function translateBooks() {
   return;
 }
 
-translatePosts();
-translatePages();
+// translatePosts();
+// translatePages();
 translateBooks();
