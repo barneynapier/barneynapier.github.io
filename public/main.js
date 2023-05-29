@@ -30,7 +30,11 @@ function parseContent({ lines, metadataIndices }) {
   if (metadataIndices.length > 0) {
     lines = lines.slice(metadataIndices[1] + 1, lines.length);
   }
-  return lines.join("\n");
+  lines = lines.join("\n");
+  // Remove obsidian links from content
+  lines = lines.replaceAll("[[", "");
+  lines = lines.replaceAll("]]", "");
+  return lines;
 }
 
 function getPost(file) {
@@ -127,4 +131,4 @@ function translateBooks() {
   return;
 }
 translatePosts();
-// translateBooks();
+translateBooks();
