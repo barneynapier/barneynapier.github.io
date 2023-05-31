@@ -98,7 +98,7 @@ function translatePosts() {
             return a.date < b.date ? 1 : -1;
           });
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/posts.json", data);
+          fs.writeFileSync("src/posts.json", data);
         }
       });
     }
@@ -123,7 +123,7 @@ function translateBooks() {
             return a.date < b.date ? 1 : -1;
           });
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/books.json", data);
+          fs.writeFileSync("src/books.json", data);
         }
       });
     }
