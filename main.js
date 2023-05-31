@@ -120,7 +120,7 @@ function translateBooks() {
         // Sort by date so books render in correct order
         if (i === files.length - 1) {
           const sortedList = booklist.sort((a, b) => {
-            return a.date < b.date ? 1 : -1;
+            return a.date - b.date ? 1 : -1;
           });
           let data = JSON.stringify(sortedList);
           fs.writeFileSync("src/books.json", data);
