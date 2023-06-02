@@ -11,3 +11,10 @@
 .navlink:hover {
   color: darkgray;
 }
+
+/* For phones */
+@media screen and (max-width: 500px) {
+  .navlink {
+    font-size: 18px;
+  }
+}

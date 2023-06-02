@@ -33,7 +33,7 @@ const BookPage = () => {
     <Layout>
       <div className="book">
         <h1 className="page-title">{fetchedbook.title}</h1>
-        <small>{fetchedbook.author}</small>
+        <small>by {fetchedbook.author}</small>
         <br />
         <small>{fetchedbook.date}</small>
         <hr />
