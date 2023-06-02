@@ -1,6 +1,6 @@
 {
   "name": "personal-site",
-  "homepage": "https://barneynapier.github.io",
+  "homepage": "https://barneynapier.github.io/#",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

@@ -9,10 +9,7 @@ const AllBooks = () => {
     <Layout>
       <p className="welcome-message">
         All reviews of books are independent and my own. If you disagree, well
-        then fair enough. At some point I might include Amazon affiliate links
-        to each book, as its non-intrusive advertising and if you're getting the
-        book anyway then what's the harm in my referring you. But for now that's
-        not the case.
+        then fair enough.
       </p>
       <div className="book-grid">
         {booklist.length &&

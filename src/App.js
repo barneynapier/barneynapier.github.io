@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HashRouter as BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/Home";
 import PostPage from "./pages/PostPage";
@@ -11,7 +11,7 @@ import BookPage from "./pages/BookPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/writing" element={<AllPosts />} />
@@ -20,6 +20,6 @@ export default function App() {
         <Route path="/book/:id" element={<BookPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

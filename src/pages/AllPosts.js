@@ -20,7 +20,7 @@ const AllPosts = () => {
                   <Link className="link" to={`/post/${post.id}`}>
                     {post.title}
                   </Link>
-                  {",  "}
+                  <br />
                   <text className="date">{post.date}</text>
                 </p>
               </div>
