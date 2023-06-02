@@ -20,6 +20,7 @@ const BookPage = () => {
       fetchedbook.title = book.title ? book.title : "No title given";
       fetchedbook.author = book.author ? book.author : "No author given";
       fetchedbook.date = book.date ? book.date : "No date given";
+      fetchedbook.tags = book.tags ? book.tags : "No tags given";
       fetchedbook.rating = book.rating ? book.rating : "No rating given";
       fetchedbook.content = book.content ? book.content : "No content given";
       bookExists = true;
@@ -31,8 +32,10 @@ const BookPage = () => {
   return (
     <Layout>
       <div className="book">
-        <h1>{fetchedbook.title}</h1>
-        <small>Published on {fetchedbook.date}</small>
+        <h1 className="page-title">{fetchedbook.title}</h1>
+        <small>{fetchedbook.author}</small>
+        <br />
+        <small>{fetchedbook.date}</small>
         <hr />
         <Markdown
           linkTarget="_blank"

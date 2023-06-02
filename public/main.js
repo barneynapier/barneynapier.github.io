@@ -34,6 +34,7 @@ function parseContent({ lines, metadataIndices }) {
   // Remove obsidian links from content
   lines = lines.replaceAll("[[", "");
   lines = lines.replaceAll("]]", "");
+  lines = lines.replaceAll("==", "");
   return lines;
 }
 
@@ -94,11 +95,11 @@ function translatePosts() {
         console.log(`Pushed post: ${post.title}`);
         // Sort by date so posts render in correct order
         if (i === files.length - 1) {
-          const sortedList = postlist.sort((a, b) => {
-            return a.date < b.date ? 1 : -1;
-          });
+          const sortedList = postlist.sort(
+            (a, b) => b.date.replaceAll("-", "") - a.date.replaceAll("-", "")
+          );
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/posts.json", data);
+          fs.writeFileSync("src/posts.json", data);
         }
       });
     }
@@ -119,11 +120,11 @@ function translateBooks() {
         console.log(`Pushed book: ${book.title}`);
         // Sort by date so books render in correct order
         if (i === files.length - 1) {
-          const sortedList = booklist.sort((a, b) => {
-            return a.date < b.date ? 1 : -1;
-          });
+          const sortedList = booklist.sort(
+            (a, b) => b.date.replaceAll("-", "") - a.date.replaceAll("-", "")
+          );
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/books.json", data);
+          fs.writeFileSync("src/books.json", data);
         }
       });
     }

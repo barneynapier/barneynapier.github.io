@@ -1,0 +1,28 @@
+.book-card {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 2px lightgrey;
+  justify-content: center;
+  width: 12rem;
+}
+
+.book-card:hover {
+  font-weight: bold;
+}
+
+.book-card-image {
+  height: 15rem;
+}
+
+.book-card-info {
+  color: black;
+  font-size: smaller;
+}
+
+a:link {
+  text-decoration: none;
+}

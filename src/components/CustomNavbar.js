@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomNavlink from "../components/CustomNavlink";
-import "../styles/CustomNavbar.css";
+import "./styles/CustomNavbar.css";
 
 export default function CustomNavbar() {
   return (

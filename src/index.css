@@ -1,19 +1,25 @@
 body {
-  font-family: "Courier New", monospace;
-  font-weight: lighter;
+  font-family: "Roboto", monospace;
+  font-weight: normal;
   font-size: 18px;
   padding-top: 100px;
   margin: 0 auto;
   background-color: whitesmoke;
 }
 
-a.link {
-  text-decoration: underline;
-  color: inherit;
+.link {
+  text-decoration: solid underline;
+  color: slateblue;
+  font-weight: bold;
 }
 
 .link:hover {
-  color: gray;
+  color: white;
+  background-color: slateblue;
+}
+
+.page-title {
+  font-weight: bold;
 }
 
 h1 {
@@ -25,7 +31,6 @@ h1 {
 }
 
 h2 {
-  /* text-decoration: underline; */
   font-weight: normal;
   font-size: 26px;
   margin-bottom: 10px;

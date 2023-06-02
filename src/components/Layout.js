@@ -1,6 +1,6 @@
 import React from "react";
 import CustomNavbar from "./CustomNavbar";
-import "../styles/Layout.css";
+import "./styles/Layout.css";
 
 const Layout = ({ children }) => {
   return (

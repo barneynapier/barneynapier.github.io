@@ -29,8 +29,8 @@ const PostPage = () => {
   return (
     <Layout>
       <div className="post">
-        <h1>{fetchedPost.title}</h1>
-        <small>Published on {fetchedPost.date}</small>
+        <h1 className="page-title">{fetchedPost.title}</h1>
+        <small>{fetchedPost.date}</small>
         <hr />
         <Markdown
           linkTarget="_blank"

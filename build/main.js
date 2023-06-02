@@ -1,9 +1,12 @@
 const path = require("path");
 const fs = require("fs");
 
-const postFolder = path.join(__dirname, "../src/content/posts");
-const pageFolder = path.join(__dirname, "../src/content/pages");
-const bookFolder = path.join(__dirname, "../src/content/books");
+// const postFolder = path.join(__dirname, "../src/content/posts");
+
+const obsidianPath =
+  "/Users/barnabynapier/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledge";
+const bookFolder = path.join(obsidianPath, "Books/Publish");
+const postFolder = path.join(obsidianPath, "Essays/Publish");
 
 function getMetadataIndices(acc, elem, i) {
   if (/^---/.test(elem)) {
@@ -27,7 +30,11 @@ function parseContent({ lines, metadataIndices }) {
   if (metadataIndices.length > 0) {
     lines = lines.slice(metadataIndices[1] + 1, lines.length);
   }
-  return lines.join("\n");
+  lines = lines.join("\n");
+  // Remove obsidian links from content
+  lines = lines.replaceAll("[[", "");
+  lines = lines.replaceAll("]]", "");
+  return lines;
 }
 
 function getPost(file) {
@@ -91,38 +98,8 @@ function translatePosts() {
             return a.date < b.date ? 1 : -1;
           });
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/posts.json", data);
+          fs.writeFileSync("src/posts.json", data);
         }
-      });
-    }
-  });
-  return;
-}
-
-function translatePages() {
-  let pageDict = {};
-  fs.readdir(pageFolder, (err, files) => {
-    if (err) {
-      console.log(err);
-    } else {
-      // Get each page
-      files.forEach((file, i) => {
-        let page;
-        fs.readFile(`${pageFolder}/${file}`, "utf8", (err, contents) => {
-          const lines = contents.split("\n");
-          const metadataIndices = lines.reduce(getMetadataIndices, []);
-          const metadata = parseMetadata({ lines, metadataIndices });
-          const content = parseContent({ lines, metadataIndices });
-          page = {
-            pageName: metadata.Page,
-            content: content,
-          };
-          pageDict[metadata.Page] = page;
-          console.log(`Pushed page: ${metadata.Page}`);
-          // These two lines shouldnt need to be called in each loop, only need once
-          let data = JSON.stringify(pageDict);
-          fs.writeFileSync("../src/pages.json", data);
-        });
       });
     }
   });
@@ -143,17 +120,15 @@ function translateBooks() {
         // Sort by date so books render in correct order
         if (i === files.length - 1) {
           const sortedList = booklist.sort((a, b) => {
-            return a.date < b.date ? 1 : -1;
+            return a.date - b.date ? 1 : -1;
           });
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("../src/books.json", data);
+          fs.writeFileSync("src/books.json", data);
         }
       });
     }
   });
   return;
 }
-
-// translatePosts();
-// translatePages();
+translatePosts();
 translateBooks();

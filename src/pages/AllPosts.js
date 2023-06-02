@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 import postlist from "../posts.json";
-import "../styles/AllPosts.css";
+import "./styles/AllPosts.css";
 
 const AllPosts = () => {
   return (

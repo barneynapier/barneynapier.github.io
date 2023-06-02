@@ -7,15 +7,14 @@ export default function HomePage() {
     <Layout>
       <div className="page-content">
         <p>
-          Hi I'm Barney, and welcome to my site! I essentially use it to share a
-          collection of my reading and writing with anybody it might interest.
+          Hi, I'm Barney, and I put this site together to share my notes/reviews
+          of books I've read. As well as anything else I feel like writing
+          about.
         </p>
         <p>
-          Its main focus is to share with others the books I've read, what I
-          learned from them, and what I thought of them. If I cause just one
-          person to read a book they otherwise wouldn't read, and enjoy it, then
-          I'm happy. So if you're interested in my book notes, then head over to
-          my{" "}
+          They way I see it, if I cause so much as a single person to read a
+          book they otherwise wouldn't read, and benefit from it, then I'm
+          happy. So if you're interested in my book notes, then head over to my{" "}
           <Link className="link" to="/bookshelf">
             bookshelf
           </Link>
@@ -26,23 +25,22 @@ export default function HomePage() {
             writing
           </Link>{" "}
           section. I mostly write to consolidate my thoughts about things I'm
-          working on, or trying to understand. This usually includes:
+          working on, or trying to understand, which usually includes:
           <ul>
             <li>
-              <i>Markets</i> - Both financial and otherwise, how they work and
-              ways people participate in them
+              Markets - Both financial and otherwise, how they work and ways
+              people participate in them
             </li>
             <li>
-              <i>Computing</i> - Mostly machine learning, website design and
-              logic problems
+              Computing - Mostly machine learning, website design and logic
+              problems
             </li>
             <li>
-              <i>Psychology</i> - Behavioural biases, and how our actions affect
-              our brains
+              Psychology - Behavioural biases, and how our actions affect our
+              brains
             </li>
             <li>
-              <i>Philosophy</i> - Mostly the meaning of life, just in case it
-              isn't 42
+              Philosophy - Mostly the meaning of life, just in case it isn't 42
             </li>
           </ul>
           That being said, its my website so I can write about whatever I want
@@ -57,6 +55,7 @@ export default function HomePage() {
           >
             Twitter
           </a>
+          . I prefer it to email, because I can block you if I want.
         </p>
       </div>
     </Layout>
