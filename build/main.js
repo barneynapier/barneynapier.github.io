@@ -34,7 +34,7 @@ function parseContent({ lines, metadataIndices }) {
   // Remove obsidian links from content
   lines = lines.replaceAll("[[", "");
   lines = lines.replaceAll("]]", "");
-  lines = lines.replaceAll("==", "");
+  lines = lines.replaceAll("==", "*");
   return lines;
 }
 
