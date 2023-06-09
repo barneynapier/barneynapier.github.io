@@ -39,9 +39,7 @@ export default function HomePage() {
               Psychology - Behavioural biases, and how our actions affect our
               brains
             </li>
-            <li>
-              Philosophy - Mostly the meaning of life, just in case it isn't 42
-            </li>
+            <li>Philosophy - Mostly around living a meaningful life</li>
           </ul>
           That being said, its my website so I can write about whatever I want
         </p>

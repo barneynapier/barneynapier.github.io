@@ -9,7 +9,9 @@
 }
 
 .navlink:hover {
-  color: darkgray;
+  /* color: darkgray; */
+  background-color: darkslategray;
+  color: white;
 }
 
 /* For phones */

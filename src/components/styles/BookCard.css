@@ -11,8 +11,8 @@
   min-height: 18rem;
 }
 
-.book-card:hover {
-  font-weight: bold;
+.book-card:hover .book-card-info {
+  text-decoration: underline;
 }
 
 .book-card-image {

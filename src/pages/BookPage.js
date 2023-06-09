@@ -35,7 +35,7 @@ const BookPage = () => {
         <h1 className="page-title">{fetchedbook.title}</h1>
         <small>by {fetchedbook.author}</small>
         <br />
-        <small>{fetchedbook.date}</small>
+        <small>Completed on {fetchedbook.date}</small>
         <hr />
         <Markdown
           linkTarget="_blank"
