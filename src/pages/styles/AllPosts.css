@@ -1,8 +1,11 @@
 .post-card {
-  margin-top: 4%;
+  margin-top: 3%;
+}
+
+.post-link {
+  font-size: larger;
 }
 
 .date {
   font-size: smaller;
-  font-style: italic;
 }

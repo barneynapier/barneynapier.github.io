@@ -1,6 +1,5 @@
 .navlink {
   text-decoration: none;
-  border-bottom: solid 1px transparent;
   display: inline-block;
   margin-right: 3px;
   padding: 5px;
@@ -10,8 +9,7 @@
 
 .navlink:hover {
   /* color: darkgray; */
-  background-color: darkslategray;
-  color: white;
+  color: darkgray;
 }
 
 /* For phones */

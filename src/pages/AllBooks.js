@@ -11,6 +11,8 @@ const AllBooks = () => {
         All reviews of books are independent and my own. If you disagree, well
         then fair enough.
       </p>
+      <hr />
+      <br />
       <div className="book-grid">
         {booklist.length &&
           booklist.map((book, i) => {

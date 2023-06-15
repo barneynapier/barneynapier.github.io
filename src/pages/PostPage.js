@@ -34,6 +34,7 @@ const PostPage = () => {
         <hr />
         <Markdown
           linkTarget="_blank"
+          className="markdown"
           children={fetchedPost.content}
           remarkPlugins={[remarkMath]}
           rehypePlugins={[rehypeKatex]}

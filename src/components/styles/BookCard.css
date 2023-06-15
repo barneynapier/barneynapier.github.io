@@ -12,7 +12,7 @@
 }
 
 .book-card:hover .book-card-info {
-  text-decoration: underline;
+  color: gray;
 }
 
 .book-card-image {
@@ -20,7 +20,7 @@
 }
 
 .book-card-info {
-  color: black;
+  color: #303030;
   font-size: smaller;
 }
 

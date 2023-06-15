@@ -22,7 +22,7 @@ export default function CustomNavlink(props) {
       className="navlink"
       to={props.to}
       style={{
-        outline: isCurrentLink() ? "outline: 1px solid black;" : "None",
+        borderBottom: isCurrentLink() ? "solid 1px" : "None",
       }}
     >
       {props.text}

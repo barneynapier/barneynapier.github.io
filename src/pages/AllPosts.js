@@ -8,8 +8,6 @@ const AllPosts = () => {
   return (
     <Layout>
       <div className="welcome-message"></div>
-      <br />
-      <hr />
       <div className="postlist">
         {postlist.length &&
           postlist.map((post, i) => {
@@ -17,7 +15,7 @@ const AllPosts = () => {
               <div key={i} className="post-card">
                 <p>
                   {" "}
-                  <Link className="link" to={`/post/${post.id}`}>
+                  <Link className="link post-link" to={`/post/${post.id}`}>
                     {post.title}
                   </Link>
                   <br />
