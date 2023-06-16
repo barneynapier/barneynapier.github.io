@@ -17,7 +17,7 @@
   text-decoration: none;
   color: inherit;
   margin-left: 2px;
-  font-size: 28px;
+  font-size: 4vh;
   padding-left: 10px;
 }
 
@@ -33,6 +33,6 @@
 /* For phones */
 @media screen and (max-width: 500px) {
   .navbrand {
-    font-size: 20px;
+    font-size: 6vw;
   }
 }

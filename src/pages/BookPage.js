@@ -35,9 +35,10 @@ const BookPage = () => {
         <h1 className="page-title">{fetchedbook.title}</h1>
         <small>by {fetchedbook.author}</small>
         <br />
-        <small>Completed on {fetchedbook.date}</small>
+        <small>Read on {fetchedbook.date}</small>
         <hr />
         <Markdown
+          className="markdown"
           linkTarget="_blank"
           children={fetchedbook.content}
           remarkPlugins={[remarkMath]}
