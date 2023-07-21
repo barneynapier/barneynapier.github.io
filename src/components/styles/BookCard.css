@@ -4,11 +4,11 @@
   border: 1px solid black;
   text-align: center;
   padding: 10px;
-  background-color: rgb(244, 244, 228);
+  background-color: white;
   box-shadow: 5px 5px 2px lightgrey;
   justify-content: center;
-  width: 12rem;
-  min-height: 18rem;
+  width: 8rem;
+  min-height: 12rem;
 }
 
 .book-card:hover .book-card-info {
@@ -16,11 +16,13 @@
 }
 
 .book-card-image {
+  width: 8rem;
   max-height: 15rem;
 }
 
 .book-card-info {
   color: #303030;
+  font-size: 2vh;
 }
 
 a:link {
