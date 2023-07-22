@@ -14,6 +14,7 @@ export default function BookCard(props) {
         <div className="book-card-info">
           <p className="book-card-title">{props.book.title}</p>
           <p className="book-card-author">{props.book.author}</p>
+          <p className="book-card-date">{props.book.date}</p>
         </div>
       </div>
     </Link>
