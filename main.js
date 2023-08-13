@@ -1,12 +1,9 @@
 const path = require("path");
 const fs = require("fs");
 
-// const postFolder = path.join(__dirname, "../src/content/posts");
-
 const obsidianPath =
   "/Users/barnabynapier/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledge";
-const bookFolder = path.join(obsidianPath, "Books/Publish");
-const postFolder = path.join(obsidianPath, "Essays/Publish");
+const postFolder = path.join(obsidianPath, "Essays/For Github");
 
 function getMetadataIndices(acc, elem, i) {
   if (/^---/.test(elem)) {
