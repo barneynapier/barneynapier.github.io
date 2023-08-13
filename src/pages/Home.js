@@ -1,47 +1,17 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
+import postlist from "../posts.json";
 
 export default function HomePage() {
   return (
     <Layout>
       <div className="page-content">
         <p>
-          Hi, I'm Barney, and I put this site together to share my notes/reviews
-          of books I've read. As well as anything else I feel like writing
-          about.
-        </p>
-        <p>
-          They way I see it, if I cause so much as a single person to read a
-          book they otherwise wouldn't read, and benefit from it, then I'm
-          happy. So if you're interested in my book notes, then head over to my{" "}
-          <Link className="link" to="/bookshelf">
-            bookshelf
-          </Link>
-        </p>
-        <p>
-          If you want to read pieces I've written, then head over to my{" "}
-          <Link className="link" to="/writing">
-            writing
-          </Link>{" "}
-          section. I mostly write to consolidate my thoughts about things I'm
-          working on, or trying to understand, which usually includes:
-          <ul>
-            <li>
-              Markets - Both financial and otherwise, how they work and ways
-              people participate in them
-            </li>
-            <li>
-              Computing - Mostly machine learning, website design and logic
-              problems
-            </li>
-            <li>
-              Psychology - Behavioural biases, and how our actions affect our
-              brains
-            </li>
-            <li>Philosophy - Mostly around living a meaningful life</li>
-          </ul>
-          That being said, its my website so I can write about whatever I want
+          I'm Barney, I'm currently a quant researcher at a hedge fund but am
+          interested in a lot of random things too. Sometimes I write about
+          things that interest me (usually relating to markets, computing, or
+          philosophy), and you can find those writings below.
         </p>
         <p>
           If you want to get in touch and chat about something, just drop me a
@@ -55,6 +25,34 @@ export default function HomePage() {
           </a>
           . I prefer it to email, because I can block you if I want.
         </p>
+      </div>
+      <h2>Projects</h2>
+      <h3>Bookism</h3>
+      Bookism is a website devoted to helping people read better for longer.
+      It's a combination of posts about what you should and could read, as well
+      as an extensive database of my own personal book reviews.
+      <h3>Jitsmap</h3>I train in Brazilian Jiu Jitsu and love it. I often take
+      notes on techniques to better understand how everything fits together. All
+      my notes are in a graph based notes tool called obsidian. So my BJJ notes
+      are like a large map which I have published online to help others improve
+      in the early stages of their BJJ journey.
+      <h2>Writing</h2>
+      <div className="postlist">
+        {postlist.length &&
+          postlist.map((post, i) => {
+            return (
+              <div key={i} className="post-card">
+                <p>
+                  {" "}
+                  <Link className="link post-link" to={`/post/${post.id}`}>
+                    {post.title}
+                  </Link>
+                  <br />
+                  <text className="date">{post.date}</text>
+                </p>
+              </div>
+            );
+          })}
       </div>
     </Layout>
   );

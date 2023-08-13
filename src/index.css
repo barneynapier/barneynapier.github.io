@@ -2,7 +2,7 @@ body {
   font-family: "Verdana";
   font-weight: normal;
   font-size: min(30px, 2.3vh);
-  color: #303030;
+  color: rgb(80, 80, 80);
   background-color: #fff;
   margin: 0 auto;
 }
@@ -21,6 +21,13 @@ body {
   font-size: 3.5vh;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(50, 50, 50);
+}
+
 h1 {
   font-weight: normal;
   font-size: min(3.5vh, 40px);
@@ -37,7 +44,7 @@ h2 {
 }
 
 h3 {
-  font-size: min(3vh, 35px);
+  font-size: min(2.75vh, 35px);
   font-weight: normal;
   /* text-decoration: underline; */
   margin-bottom: 10px;

@@ -3,14 +3,11 @@
   color: slateblue;
   padding-top: 20px;
   padding-bottom: 20px;
-  /* position: fixed; */
   border-radius: 0px;
   top: 0;
   width: 100%;
   max-width: 100vw;
   margin-top: 0px;
-  /* border-bottom-style: solid;
-  border-bottom-width: 1px; */
 }
 
 .navbrand {
@@ -23,11 +20,6 @@
 
 .navbrand:hover {
   color: lightblue;
-}
-
-.navtabs {
-  float: right;
-  padding-right: 10px;
 }
 
 /* For phones */

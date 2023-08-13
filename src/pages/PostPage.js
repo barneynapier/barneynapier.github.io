@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import "./styles/PostPage.css";
 
 const PostPage = () => {
   const params = useParams();
@@ -29,9 +30,11 @@ const PostPage = () => {
   return (
     <Layout>
       <div className="post">
-        <h1 className="page-title">{fetchedPost.title}</h1>
-        <small>{fetchedPost.date}</small>
-        <hr />
+        <div className="title-info">
+          <h1 className="page-title">{fetchedPost.title}</h1>
+          <small>{fetchedPost.date}</small>
+          <hr />
+        </div>
         <Markdown
           linkTarget="_blank"
           className="markdown"

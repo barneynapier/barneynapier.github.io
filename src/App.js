@@ -4,10 +4,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 import HomePage from "./pages/Home";
 import PostPage from "./pages/PostPage";
-import AllPosts from "./pages/AllPosts";
 import NotFound from "./pages/NotFound";
-import AllBooks from "./pages/AllBooks";
-import BookPage from "./pages/BookPage";
 
 export default function App() {
   return (
@@ -15,10 +12,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/writing" element={<AllPosts />} />
-        <Route path="/bookshelf" element={<AllBooks />} />
         <Route path="/post/:id" element={<PostPage />} />
-        <Route path="/book/:id" element={<BookPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </HashRouter>
