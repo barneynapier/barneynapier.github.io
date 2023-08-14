@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const obsidianPath =
   "/Users/barnabynapier/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledge";
-const postFolder = path.join(obsidianPath, "Essays/For Github");
+const postFolder = path.join(obsidianPath, "Github Site Posts");
 
 function getMetadataIndices(acc, elem, i) {
   if (/^---/.test(elem)) {
