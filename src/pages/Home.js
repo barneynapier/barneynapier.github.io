@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 import postlist from "../posts.json";
+import "./styles/Home.css";
 
 export default function HomePage() {
   return (
@@ -25,34 +26,52 @@ export default function HomePage() {
           </a>
           . I prefer it to email, because I can block you if I want.
         </p>
-      </div>
-      <h2>Projects</h2>
-      <h3>Bookism</h3>
-      Bookism is a website devoted to helping people read better for longer.
-      It's a combination of posts about what you should and could read, as well
-      as an extensive database of my own personal book reviews.
-      <h3>Jitsmap</h3>I train in Brazilian Jiu Jitsu and love it. I often take
-      notes on techniques to better understand how everything fits together. All
-      my notes are in a graph based notes tool called obsidian. So my BJJ notes
-      are like a large map which I have published online to help others improve
-      in the early stages of their BJJ journey.
-      <h2>Writing</h2>
-      <div className="postlist">
-        {postlist.length &&
-          postlist.map((post, i) => {
-            return (
-              <div key={i} className="post-card">
-                <p>
-                  {" "}
-                  <Link className="link post-link" to={`/post/${post.id}`}>
-                    {post.title}
-                  </Link>
-                  <br />
-                  <text className="date">{post.date}</text>
-                </p>
-              </div>
-            );
-          })}
+        <br />
+        <h2>Projects</h2>
+        <hr />
+        <p>
+          <a href="https://bookism.co.uk" target="_blank">
+            Bookism
+          </a>
+          : A website devoted to helping people read better for longer. It's a
+          combination of posts about what you should and could read, as well as
+          an extensive database of my own personal book reviews.
+        </p>
+        <p>
+          <a href="">Jitsmap</a>: (Site pending) I train in Brazilian Jiu Jitsu
+          and love it. I often take notes on techniques to better understand how
+          everything fits together. All my notes are in a graph based notes tool
+          called obsidian. So my BJJ notes are like a large map which I have
+          published online to help others improve in the early stages of their
+          BJJ journey.
+        </p>
+        <p>
+          <a href="https://nano-vert.co.uk" target="_blank">
+            Nanovert
+          </a>
+          : I co-founded a company that enables people to turn their social
+          media posts into discounts at local shops.
+        </p>
+        <br />
+        <h2>Writing</h2>
+        <hr />
+        <div className="postlist">
+          {postlist.length &&
+            postlist.map((post, i) => {
+              return (
+                <div key={i} className="post-card">
+                  <p>
+                    {" "}
+                    <Link className="link post-link" to={`/post/${post.id}`}>
+                      {post.title}
+                    </Link>
+                    <br />
+                    <text className="post-date">{post.date}</text>
+                  </p>
+                </div>
+              );
+            })}
+        </div>
       </div>
     </Layout>
   );
