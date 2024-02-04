@@ -1,9 +1,8 @@
 const path = require("path");
 const fs = require("fs");
 
-const obsidianPath =
-  "/Users/barnabynapier/Library/Mobile Documents/iCloud~md~obsidian/Documents/Knowledge";
-const postFolder = path.join(obsidianPath, "Github Site Posts");
+const basePath = "../src";
+const postFolder = path.join(basePath, "Posts");
 
 function getMetadataIndices(acc, elem, i) {
   if (/^---/.test(elem)) {
@@ -73,7 +72,7 @@ function translatePosts() {
             (a, b) => b.date.replaceAll("-", "") - a.date.replaceAll("-", "")
           );
           let data = JSON.stringify(sortedList);
-          fs.writeFileSync("src/posts.json", data);
+          fs.writeFileSync("../src/posts.json", data);
         }
       });
     }
