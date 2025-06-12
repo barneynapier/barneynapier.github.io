@@ -1,9 +1,23 @@
+.layout {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+}
+
 .layout-body {
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
-
   width: 90%;
   max-width: 50rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .layout-body {
+    width: 95%;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+  }
 }
