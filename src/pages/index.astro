@@ -10,12 +10,12 @@ const bookCount = (await getCollection('books')).length;
 const year = (d: Date) => new Date(d).getFullYear();
 ---
 
-<Base title="Barnaby Napier" section="home">
+<Base title="Barney Napier" section="home">
   <section class="section">
     <Prompt cmd="whoami" />
     <p class="lead out">
-      Barnaby Napier — builder &amp; writer. Ex-finance / quant, now building
-      things. Based in Nairobi <span class="faint">(UTC+3)</span>.
+      Hey I'm Barney — I used to trade stocks at a bank, then I was a quant at a hedge fund, now I'm working on my own ideas.
+      Based in Nairobi <span class="faint">(UTC+3)</span>.
     </p>
   </section>
 
@@ -23,8 +23,8 @@ const year = (d: Date) => new Date(d).getFullYear();
     <Prompt cmd="ls projects/" />
     <div class="out">
       <div class="row">
-        <a class="name" href="https://rollmap.io">rollmap.io</a>
-        <span class="meta">BJJ academy + student map</span>
+        <a class="name" href="https://matways.io">matways.io</a>
+        <span class="meta">The marketplace for online BJJ coaching.</span>
       </div>
       <div class="row">
         <a class="name" href="https://nano-vert.co.uk">nanovert</a>
