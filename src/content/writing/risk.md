@@ -96,7 +96,7 @@ Another element of risk that is lost when only talking about coin flips is that 
 Probability distributions represent this continuous spectrum of likelihood over the range of all possible outcomes. Stock returns are often modelled using a normal (Gaussian) distribution as shown below. It is the most common distribution in the natural world, representing  everything from height and IQ to reading ability and job satisfaction. In fact, if you flipped a coin an infinite number of times, it would even represent the number of times you get heads (or tails).
 
 
-![](https://stats.libretexts.org/@api/deki/files/4619/normdist-1.png) 
+![A symmetric normal (Gaussian) distribution](/essay-images/risk-normal-distribution.png)
 
 Often the normal distribution is used to model returns of financial instruments too. It's not perfect, but does a pretty good job. The main thing that it ignores is the "fat tails" of a true return distribution. This is where the returns right at the edges of the distribution are actually more probable than those in the middle. It means that in reality, stocks are more likely to have very large moves than they are to have quite large ones. In statistics we would say that the true distribution has more [kurtosis](https://en.wikipedia.org/wiki/Kurtosis) than a normal distribution.
 
@@ -104,7 +104,7 @@ The other thing that a normal distribution doesn't get quite right about stock r
 
 So in reality, stock return distributions look more like this:
 
-![](https://www.researchgate.net/publication/222566122/figure/fig1/AS:729547825741824@1550949164552/Empirical-probability-distribution-of-the-portfolio-consisting-of-the-stock-and-short.png)
+![Real stock-return distribution versus a normal curve, showing negative skew and a fat downside tail](/essay-images/risk-return-distribution.svg)
 
 One last thing to consider about distributions is which ones represent a more risky scenario than others? Which probability distribution is the riskiest? I'm actually not sure about this. Intuitively I would say a distribution with fatter tails is riskier, as is a more asymmetric one. Taking that to the limit suggests the riskiest distribution is that of a biased coin (only tails, slightly asymmetric). But I'll leave this one open for discussion. 
 
@@ -154,7 +154,7 @@ Likewise, in human systems, carefully managing risks at the individual level can
 
 We're getting further away from the concept of risk itself now, but before finishing I want to talk a bit about entropy. Entropy was introduced by the mathematician Claude Shannon. It represents the degree of uncertainty or randomness within a system. Shannon presented it from the perspective of communication, which is how he developed [information theory](https://en.wikipedia.org/wiki/Information_theory). The idea is that if you are communicating with somebody, you will get more information from what they say when you have least certainty around what it is they are going to say. From here, Shannon showed that the probability distribution with the most entropy is the uniform distribution, pictured below. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/1200px-Uniform_Distribution_PDF_SVG.svg.png)
+![A uniform distribution, which has the most entropy](/essay-images/risk-uniform-distribution.svg)
 
 This puts forward the idea of uncertainty as the average deviation from what you expect (standard deviation). Now, of course entropy is much more complex than this. It pops up in thermodynamic physics most often, which I know very little about. But I would be remiss if I didn't mention it in this essay anyway. Considering entropy in risk assessment can help us understand the level of information or predictability associated with a particular situation. Higher entropy indicates a greater level of uncertainty and, by extension, increased risk. 
 
