@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 import postlist from "../posts.json";
+import booklist from "../books.json";
 import "./styles/Home.css";
 
 export default function HomePage() {
@@ -11,20 +12,21 @@ export default function HomePage() {
         <p>
           <a
             className="link"
-            href="https://twitter.com/barney_napier"
+            href="https://twitter.com/barneymade"
             target="_blank"
           >
             Twitter
           </a>
         </p>
         <br />
-        <h2>Projects</h2>
+        <h2>Things I've Done</h2>
         <hr />
         <p>
-          <a href="https://bookism.co.uk" target="_blank">
-            Bookism
-          </a>
-          : Personal website of book notes and reviews. 
+          <Link className="link" to="/books">
+            Books
+          </Link>
+          : My notes and reviews from {booklist.length} books, originally the
+          Bookism website.
         </p>
         <p>
           <a href="https://rollmap.io" target="_blank">

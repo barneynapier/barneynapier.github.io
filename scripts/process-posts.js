@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const matter = require('gray-matter');
 
-const POSTS_DIRECTORY = path.join(process.cwd(), 'src', 'Posts');
+const POSTS_DIRECTORY = path.join(process.cwd(), 'src', 'essays');
 const OUTPUT_FILE = path.join(process.cwd(), 'src', 'posts.json');
 
 async function processMarkdownFiles() {

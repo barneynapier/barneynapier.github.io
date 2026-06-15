@@ -20,10 +20,11 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "npm run process-posts && react-scripts build",
+    "build": "npm run process-posts && npm run process-books && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "process-posts": "node scripts/process-posts.js"
+    "process-posts": "node scripts/process-posts.js",
+    "process-books": "node scripts/process-books.js"
   },
   "eslintConfig": {
     "extends": "react-app"
