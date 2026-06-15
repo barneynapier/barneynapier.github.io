@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+---
+
+<Base title="404 — Not Found" description="Page not found.">
+  <Prompt cmd="cd ./that-page" />
+  <p class="out">
+    <span class="red">bash: cd: ./that-page: No such file or directory</span>
+  </p>
+  <p class="out muted">The page you’re looking for doesn’t exist.</p>
+  <p class="out" style="margin-top:1.4rem">
+    <a href="/">cd ~</a> &nbsp;<span class="faint">return home</span>
+  </p>
+  <p class="cmd" style="margin-top:1rem">
+    <span class="u">barney@napier</span>:<span class="p">~</span>$<span
+      class="cursor"></span>
+  </p>
+</Base>

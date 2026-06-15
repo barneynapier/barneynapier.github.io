@@ -1,0 +1,71 @@
+---
+import '@fontsource-variable/jetbrains-mono';
+import 'katex/dist/katex.min.css';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  section?: 'home' | 'writing' | 'books';
+}
+
+const {
+  title,
+  description = 'Barnaby Napier — builder and writer. Ex-finance / quant, based in Nairobi. Essays, book notes, and projects.',
+  section = 'home',
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0d1117" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@barneymade" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href="/"
+          ><span class="u">barney@napier</span>:<span class="p">~</span>$</a
+        >
+        <nav class="site-nav">
+          <a href="/writing/" class={section === 'writing' ? 'active' : ''}
+            >writing</a
+          >
+          <a href="/books/" class={section === 'books' ? 'active' : ''}>books</a>
+          <a href="https://twitter.com/barneymade" rel="me">twitter</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="bar">
+        <span>© {new Date().getFullYear()} Barnaby Napier</span>
+        <span>
+          <a href="https://github.com/barneynapier">github</a>
+          <span class="faint">·</span>
+          <a href="https://twitter.com/barneymade">twitter</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

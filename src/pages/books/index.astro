@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+import StarRating from '../../components/StarRating.astro';
+import { getCollection } from 'astro:content';
+
+const books = (await getCollection('books')).sort((a, b) => {
+  const ad = a.data.date ? a.data.date.valueOf() : 0;
+  const bd = b.data.date ? b.data.date.valueOf() : 0;
+  return bd - ad;
+});
+
+function coverFor(id: string, coverImage?: string) {
+  const file = coverImage ? coverImage.split('/').pop() : `${id}.jpg`;
+  return `/book-covers/${file}`;
+}
+---
+
+<Base
+  title="Books — Barnaby Napier"
+  section="books"
+  description={`Notes and reviews from ${books.length} books I have read.`}
+>
+  <Prompt path="~/books" cmd="ls" />
+  <p class="out muted" style="font-size:13px">
+    {books.length} books, newest first · open any for notes &amp; rating
+  </p>
+  <div class="books">
+    {
+      books.map((book) => (
+        <a class="book" href={`/books/${book.id}/`}>
+          <img
+            class="cover"
+            src={coverFor(book.id, book.data.cover_image)}
+            alt={`${book.data.title} cover`}
+            loading="lazy"
+            width="150"
+            height="225"
+          />
+          <p class="bt">{book.data.title}</p>
+          <p class="ba">{book.data.author}</p>
+          <StarRating rating={book.data.rating} />
+        </a>
+      ))
+    }
+  </div>
+</Base>

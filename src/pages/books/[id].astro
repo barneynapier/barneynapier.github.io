@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+import StarRating from '../../components/StarRating.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books.map((book) => ({ params: { id: book.id }, props: { book } }));
+}
+
+const { book } = Astro.props;
+const { Content } = await render(book);
+const { title, author, rating, is_fiction, tags, date, excerpt, cover_image } =
+  book.data;
+
+const cover = cover_image
+  ? `/book-covers/${cover_image.split('/').pop()}`
+  : `/book-covers/${book.id}.jpg`;
+const fmt = (d?: Date) => (d ? new Date(d).toISOString().slice(0, 10) : '—');
+---
+
+<Base title={`${title} — Barnaby Napier`} section="books">
+  <Prompt path="~/books" cmd={`cat ${book.id}.md`} />
+  <div class="book-head" style="margin-top:1.4rem">
+    <img class="cover" src={cover} alt={`${title} cover`} width="130" height="195" />
+    <div>
+      <h1>{title}</h1>
+      <p class="by">{author}</p>
+      <p>
+        <StarRating rating={rating} />
+        <span class="kv">&nbsp;{rating}/5</span>
+      </p>
+      <p class="kv">read: {fmt(date)}</p>
+      <p class="kv">
+        {is_fiction ? 'fiction' : 'non-fiction'}
+        {tags.length ? ' · ' + tags.map((t) => `#${t}`).join(' ') : ''}
+      </p>
+    </div>
+  </div>
+  {excerpt && <p class="lead muted">{excerpt}</p>}
+  <article class="prose" style="margin-top:1.6rem">
+    <Content />
+  </article>
+  <a class="back" href="/books/">cd ../</a>
+</Base>

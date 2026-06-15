@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+import { getCollection } from 'astro:content';
+
+const writing = (await getCollection('writing')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const bookCount = (await getCollection('books')).length;
+const year = (d: Date) => new Date(d).getFullYear();
+---
+
+<Base title="Barnaby Napier" section="home">
+  <section class="section">
+    <Prompt cmd="whoami" />
+    <p class="lead out">
+      Barnaby Napier — builder &amp; writer. Ex-finance / quant, now building
+      things. Based in Nairobi <span class="faint">(UTC+3)</span>.
+    </p>
+  </section>
+
+  <section class="section">
+    <Prompt cmd="ls projects/" />
+    <div class="out">
+      <div class="row">
+        <a class="name" href="https://rollmap.io">rollmap.io</a>
+        <span class="meta">BJJ academy + student map</span>
+      </div>
+      <div class="row">
+        <a class="name" href="https://nano-vert.co.uk">nanovert</a>
+        <span class="meta">social posts → shop discounts</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <Prompt cmd="ls -t writing/" />
+    <div class="out">
+      {
+        writing.map((post) => (
+          <div class="row">
+            <a class="name" href={`/writing/${post.id}/`}>
+              {post.id}.md
+            </a>
+            <span class="meta">{year(post.data.date)}</span>
+          </div>
+        ))
+      }
+    </div>
+    <p class="out"><a href="/writing/">→ all writing</a></p>
+  </section>
+
+  <section class="section">
+    <Prompt cmd="ls books/ | wc -l" />
+    <p class="out">
+      <span class="amber">{bookCount}</span> books with notes &amp; star ratings
+      &nbsp;<a href="/books/">→ open library</a>
+    </p>
+  </section>
+
+  <section class="section">
+    <Prompt cmd="cat contact" />
+    <p class="out">
+      <a href="https://twitter.com/barneymade">twitter</a>
+      <span class="faint">·</span>
+      <a href="https://github.com/barneynapier">github</a>
+    </p>
+  </section>
+
+  <p class="cmd">
+    <span class="u">barney@napier</span>:<span class="p">~</span>$<span
+      class="cursor"></span>
+  </p>
+</Base>

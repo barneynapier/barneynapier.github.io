@@ -1,3 +1,9 @@
 node_modules
+dist
 build/
+.astro
 .DS_Store
+*.log
+npm-debug.log*
+.env
+.env.production

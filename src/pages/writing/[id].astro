@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing');
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const fmt = (d: Date) => new Date(d).toISOString().slice(0, 10);
+---
+
+<Base title={`${post.data.title} — Barnaby Napier`} section="writing">
+  <Prompt path="~/writing" cmd={`cat ${post.id}.md`} />
+  <article class="prose" style="margin-top:1.4rem">
+    <h1>{post.data.title}</h1>
+    <p class="meta">
+      {fmt(post.data.date)} · {post.data.tags.map((t) => `#${t}`).join(' ')}
+    </p>
+    <Content />
+  </article>
+  <a class="back" href="/writing/">cd ../</a>
+</Base>

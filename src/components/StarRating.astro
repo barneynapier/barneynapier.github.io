@@ -1,0 +1,19 @@
+---
+interface Props {
+  rating?: number;
+  max?: number;
+}
+const { rating = 0, max = 5 } = Astro.props;
+const filled = Math.max(0, Math.min(max, Math.round(rating)));
+const stars = Array.from({ length: max }, (_, i) => i < filled);
+---
+
+<span class="stars" aria-label={`${filled} out of ${max} stars`}>
+  {
+    stars.map((on) => (
+      <span class={on ? 'star on' : 'star off'} aria-hidden="true">
+        {on ? '★' : '☆'}
+      </span>
+    ))
+  }
+</span>

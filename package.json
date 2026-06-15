@@ -1,45 +1,22 @@
 {
-  "name": "personal-site",
-  "homepage": "https://barneynapier.github.io/#",
-  "version": "0.1.0",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "gray-matter": "^4.0.3",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-markdown": "^8.0.0",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "^5.0.1",
-    "rehype-katex": "^6.0.2",
-    "remark-math": "^5.1.1",
-    "typeface-raleway": "0.0.75"
-  },
+  "name": "barneynapier-site",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://barneynapier.github.io",
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "npm run process-posts && npm run process-books && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "process-posts": "node scripts/process-posts.js",
-    "process-books": "node scripts/process-books.js"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && gh-pages -d dist -b gh-pages -f"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "@fontsource-variable/jetbrains-mono": "^5.1.1",
+    "astro": "^5.2.5",
+    "katex": "^0.16.11",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"

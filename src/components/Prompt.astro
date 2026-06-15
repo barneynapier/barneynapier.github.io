@@ -1,0 +1,11 @@
+---
+interface Props {
+  path?: string;
+  cmd: string;
+}
+const { path = '~', cmd } = Astro.props;
+---
+
+<p class="cmd">
+  <span class="u">barney@napier</span>:<span class="p">{path}</span>$ {cmd}
+</p>
