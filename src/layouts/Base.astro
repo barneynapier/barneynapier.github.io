@@ -6,7 +6,7 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
-  section?: 'home' | 'writing' | 'books' | 'links';
+  section?: 'home' | 'writing' | 'books' | 'links' | 'lfg';
 }
 
 const {
@@ -49,7 +49,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
           >
           <a href="/books/" class={section === 'books' ? 'active' : ''}>books</a>
           <a href="/links/" class={section === 'links' ? 'active' : ''}>links</a>
-          <a href="https://twitter.com/barneymade" rel="me">twitter</a>
+          <a href="/lfg/" class={section === 'lfg' ? 'active' : ''}>lfg</a>
         </nav>
       </div>
     </header>
