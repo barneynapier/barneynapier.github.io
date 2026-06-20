@@ -21,7 +21,7 @@ function coverFor(id: string, coverImage?: string) {
   section="books"
   description={`Notes and reviews from ${books.length} books I have read.`}
 >
-  <Prompt path="~/books" cmd="ls" />
+  <Prompt cmd="books/" />
   <p class="out muted" style="font-size:13px">
     {books.length} books, newest first · open any for notes &amp; rating
   </p>

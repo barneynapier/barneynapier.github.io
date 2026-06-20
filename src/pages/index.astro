@@ -12,14 +12,14 @@ const year = (d: Date) => new Date(d).getFullYear();
 
 <Base title="Barney Napier" section="home">
   <section class="section">
-    <Prompt cmd="whoami" />
+    <Prompt cmd="about/" />
     <p class="lead out">
       hey i'm barney — i used to trade stocks at a bank, then i was a quant at a hedge fund, now i'm working on my own ideas.
     </p>
   </section>
 
   <section class="section">
-    <Prompt cmd="ls projects/" />
+    <Prompt cmd="projects/" />
     <div class="out">
       <div class="row">
         <a class="name" href="https://matways.io">matways.io</a>
@@ -33,7 +33,7 @@ const year = (d: Date) => new Date(d).getFullYear();
   </section>
 
   <section class="section">
-    <Prompt cmd="ls -t writing/" />
+    <Prompt cmd="writing/" />
     <div class="out">
       {
         writing.map((post) => (
@@ -50,7 +50,7 @@ const year = (d: Date) => new Date(d).getFullYear();
   </section>
 
   <section class="section">
-    <Prompt cmd="ls books/ | wc -l" />
+    <Prompt cmd="books/" />
     <p class="out">
       <span class="amber">{bookCount}</span> books with notes &amp; star ratings
       &nbsp;<a href="/books/">→ open library</a>
@@ -58,7 +58,7 @@ const year = (d: Date) => new Date(d).getFullYear();
   </section>
 
   <section class="section">
-    <Prompt cmd="cat links.md | head" />
+    <Prompt cmd="links/" />
     <p class="out">
       links to things i've read, watched &amp; listened to — and liked
       &nbsp;<a href="/links/">→ open</a>
@@ -66,16 +66,11 @@ const year = (d: Date) => new Date(d).getFullYear();
   </section>
 
   <section class="section">
-    <Prompt cmd="cat contact" />
+    <Prompt cmd="contact/" />
     <p class="out">
       <a href="https://twitter.com/barneymade">twitter</a>
       <span class="faint">·</span>
       <a href="https://github.com/barneynapier">github</a>
     </p>
   </section>
-
-  <p class="cmd">
-    <span class="u">barney@napier</span>:<span class="p">~</span>$<span
-      class="cursor"></span>
-  </p>
 </Base>

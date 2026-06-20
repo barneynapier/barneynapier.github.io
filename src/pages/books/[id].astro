@@ -21,7 +21,7 @@ const fmt = (d?: Date) => (d ? new Date(d).toISOString().slice(0, 10) : '—');
 ---
 
 <Base title={`${title} — Barnaby Napier`} section="books">
-  <Prompt path="~/books" cmd={`cat ${book.id}.md`} />
+  <Prompt cmd={`${book.id}.md`} />
   <div class="book-head" style="margin-top:1.4rem">
     <img class="cover" src={cover} alt={`${title} cover`} width="130" height="195" />
     <div>

@@ -14,7 +14,7 @@ const fmt = (d: Date) => new Date(d).toISOString().slice(0, 10);
 ---
 
 <Base title={`${post.data.title} — Barnaby Napier`} section="writing">
-  <Prompt path="~/writing" cmd={`cat ${post.id}.md`} />
+  <Prompt cmd={`${post.id}.md`} />
   <article class="prose" style="margin-top:1.4rem">
     <h1>{post.data.title}</h1>
     <p class="meta">
