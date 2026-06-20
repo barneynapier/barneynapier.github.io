@@ -1,0 +1,101 @@
+---
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+
+// Things I've read / watched / listened to and liked — a public bookmarks file.
+// Each item: `text` is the link label, `url` is where it points.
+// To add one, drop it into the relevant section's `items` list.
+const sections: {
+  title: string;
+  items: { text: string; url: string }[];
+}[] = [
+  {
+    title: 'Blogs I Love',
+    items: [
+      { text: 'Derek Sivers', url: 'https://sive.rs/' },
+      { text: 'Paul Graham', url: 'https://www.paulgraham.com/articles.html' },
+      { text: 'Sriram Krishnan', url: 'https://sriramk.com/' },
+      { text: 'Bartosz Ciechanowski', url: 'https://ciechanow.ski/' },
+      { text: 'Brett Victor', url: 'https://worrydream.com/' },
+    ],
+  },
+  {
+    title: 'Content I Like',
+    items: [
+      { text: 'Sivers - Focus', url: 'https://sive.rs/berklee' },
+      { text: 'Paul Graham - How to earn a billion dollars', url: 'https://paulgraham.com/earn.html' },
+      { text: 'Paul Graham - How to work hard', url: 'https://www.paulgraham.com/hwh.html' },
+      { text: 'Marc Lou documents his way to $20,000 MRR', url: 'https://www.youtube.com/watch?app=desktop&v=UTjU_30SHIo&ra=m' },
+      { text: 'High Agency dot com', url: 'https://www.highagency.com/' },
+      { text: 'On Marriage', url: 'https://www.poetryfoundation.org/poems/148576/on-marriage-5bff1692a81b0' },
+      { text: 'The Greatest Books', url: 'https://thegreatestbooks.org/' },
+      { text: 'Every Noise at Once', url: 'https://everynoise.com/everynoise1d.html' },
+      { text: 'How to build an economic model in your spare time', url: 'https://researchswinger.org/others/model.pdf' },
+      { text: 'List of important papers from Brett V', url: 'https://worrydream.com/refs/' },
+      { text: 'List of important memos from Sriram K', url: 'https://sriramk.com/memos' },
+      { text: 'World Travel Guide', url: 'https://guide.world/' },
+      { text: 'Teach yourself CS', url: 'https://teachyourselfcs.com/' },
+    ],
+  },
+  {
+    title: 'Life Advice',
+    items: [
+      { text: 'Sam Altman', url: 'https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short' },
+      { text: 'Patrick Collison', url: 'https://patrickcollison.com/advice' },
+      { text: 'Alexey Guzey', url: 'https://guzey.com/personal/what-should-you-do-with-your-life/' },
+      { text: 'Paul Graham - How to do what you love', url: 'https://paulgraham.com/love.html' },
+      { text: 'Nate Soares - Collide with life', url: 'https://mindingourway.com/dive-in-2/' },
+      { text: 'Bryan Braun - Your life in months', url: 'https://www.bryanbraun.com/your-life/months.html' },
+    ],
+  },
+  {
+    title: 'What to Work On, according to',
+    items: [
+      { text: 'Y Combinator', url: 'https://www.ycombinator.com/rfs' },
+      { text: 'A random google doc I found', url: 'https://docs.google.com/document/d/1Vb8WWbsVyEJzl66_qqtZfFr2uLL07Y7SJH5XKldjDPY/edit?tab=t.0' },
+      { text: 'Patrick Collison', url: 'https://patrickcollison.com/questions' },
+      { text: 'Tyler Cowen', url: 'https://marginalrevolution.com/marginalrevolution/2019/12/work-on-these-things.html' },
+      { text: 'Gwern', url: 'https://gwern.net/note/statistic#someone-should-do-something-wishlist-of-miscellaneous-project-ideas' },
+      { text: 'Nintil', url: 'https://nintil.com/technology-some-people-are-excited-about/' },
+    ],
+  },
+  {
+    title: 'Puzzles & Problems',
+    items: [
+      { text: 'Cut the Knot', url: 'https://www.cut-the-knot.org/' },
+      { text: 'Project Euler', url: 'https://projecteuler.net/archives' },
+      { text: 'CSE Blog', url: 'http://pratikpoddarcse.blogspot.com/' },
+      { text: 'FiveThirtyEight', url: 'https://fivethirtyeight.com/tag/the-riddler/' },
+      { text: 'IBM', url: 'https://research.ibm.com/haifa/ponderthis/index.shtml' },
+    ],
+  },
+];
+---
+
+<Base
+  title="Links — Barnaby Napier"
+  section="links"
+  description="A public bookmarks file — things I've read, watched, and listened to, and liked."
+>
+  <Prompt path="~" cmd="cat links.md" />
+  <p class="out muted" style="font-size:13px">
+    things i've read, watched &amp; listened to — and liked.
+  </p>
+
+  {
+    sections.map((s) => (
+      <section class="section" style="margin-top:1.8rem">
+        <h2 class="amber" style="font-size:15px;font-weight:500;margin:0 0 0.5rem">
+          {s.title}
+        </h2>
+        {s.items.map((it) => (
+          <p class="out" style="margin:0.1rem 0">
+            <a href={it.url} target="_blank" rel="noopener noreferrer">
+              {it.text}
+            </a>
+          </p>
+        ))}
+      </section>
+    ))
+  }
+</Base>
