@@ -1,0 +1,174 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+
+// Mood board — images + videos that motivate me. Files live in /public/lfg.
+// To add one, just drop a file into public/lfg/ — it's picked up automatically.
+const dir = path.join(process.cwd(), 'public', 'lfg');
+const media = fs
+  .readdirSync(dir)
+  .filter((f) => /\.(png|jpe?g|gif|webp|avif|mp4|webm|mov)$/i.test(f))
+  .sort();
+
+const isVideo = (f: string) => /\.(mp4|webm|mov)$/i.test(f);
+---
+
+<Base
+  title="lfg — Barnaby Napier"
+  section="lfg"
+  description="A mood board of images and videos that motivate me."
+>
+  <Prompt cmd="lfg/" />
+  <p class="out muted" style="font-size:13px">stuff that gets me going.</p>
+
+  <div class="lfg-grid">
+    {
+      media.map((f) =>
+        isVideo(f) ? (
+          <video
+            class="lfg-item"
+            src={`/lfg/${f}`}
+            muted
+            loop
+            autoplay
+            playsinline
+            preload="metadata"
+          />
+        ) : (
+          <img class="lfg-item" src={`/lfg/${f}`} alt="" loading="lazy" />
+        )
+      )
+    }
+  </div>
+
+  <div id="lfg-lightbox" class="lfg-lightbox" hidden>
+    <div class="lfg-lightbox-inner"></div>
+  </div>
+</Base>
+
+<style>
+  .lfg-grid {
+    column-count: 3;
+    column-gap: 12px;
+    margin-top: 1.4rem;
+  }
+  .lfg-item {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 12px;
+    break-inside: avoid;
+    border: 1px solid var(--border-soft);
+    border-radius: 4px;
+    background: var(--bg-soft);
+    cursor: zoom-in;
+  }
+  .lfg-item:hover {
+    border-color: var(--amber);
+  }
+
+  .lfg-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(1, 4, 9, 0.92);
+    backdrop-filter: blur(4px);
+    cursor: zoom-out;
+  }
+  .lfg-lightbox[hidden] {
+    display: none;
+  }
+  .lfg-lightbox-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 94vw;
+    max-height: 92vh;
+  }
+  .lfg-lightbox :global(img),
+  .lfg-lightbox :global(video) {
+    max-width: 94vw;
+    max-height: 92vh;
+    width: auto;
+    height: auto;
+    border: 1px solid var(--border-soft);
+    border-radius: 4px;
+  }
+  .lfg-lightbox :global(img) {
+    cursor: zoom-out;
+  }
+  .lfg-lightbox :global(video) {
+    cursor: default;
+  }
+  @media (max-width: 640px) {
+    .lfg-grid {
+      column-count: 2;
+    }
+  }
+  @media (max-width: 380px) {
+    .lfg-grid {
+      column-count: 1;
+    }
+  }
+</style>
+
+<script>
+  const grid = document.querySelector('.lfg-grid');
+  const box = document.getElementById('lfg-lightbox') as HTMLElement;
+  const inner = box?.querySelector('.lfg-lightbox-inner') as HTMLElement;
+
+  // Touch devices (phone/tablet) expand on a single tap; pointer devices
+  // (PC) expand on double-click so a single click stays a no-op.
+  const coarse = window.matchMedia('(pointer: coarse)').matches;
+  const trigger = coarse ? 'click' : 'dblclick';
+
+  function expand(src: string, isVideo: boolean) {
+    inner.replaceChildren();
+    if (isVideo) {
+      const v = document.createElement('video');
+      v.src = src;
+      v.controls = true;
+      v.autoplay = true;
+      v.loop = true;
+      v.muted = false; // expanding a video unmutes its audio
+      v.playsInline = true;
+      inner.appendChild(v);
+      v.play().catch(() => {});
+    } else {
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = '';
+      inner.appendChild(img);
+    }
+    box.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    box.hidden = true;
+    inner.replaceChildren(); // stops video playback / audio
+    document.body.style.overflow = '';
+  }
+
+  grid?.addEventListener(trigger, (e) => {
+    const el = (e.target as HTMLElement).closest('.lfg-item');
+    if (!el) return;
+    expand(el.getAttribute('src') ?? '', el.tagName === 'VIDEO');
+  });
+
+  // Close on backdrop or image click; leave clicks on the video alone so its
+  // controls stay usable.
+  box?.addEventListener('click', (e) => {
+    if ((e.target as HTMLElement).tagName === 'VIDEO') return;
+    close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && box && !box.hidden) close();
+  });
+</script>
