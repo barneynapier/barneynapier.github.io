@@ -3,38 +3,39 @@ import Base from '../../layouts/Base.astro';
 import Prompt from '../../components/Prompt.astro';
 
 // Things I've read / watched / listened to and liked — a public bookmarks file.
-// Each item: `text` is the link label, `url` is where it points.
+// Each item: `text` is the link label, `url` is where it points, `summary` is
+// a one-line note shown in grey below the link (edit these freely).
 // To add one, drop it into the relevant section's `items` list.
 const sections: {
   title: string;
-  items: { text: string; url: string }[];
+  items: { text: string; url: string; summary?: string }[];
 }[] = [
-  {
-    title: 'Blogs I Love',
-    items: [
-      { text: 'Derek Sivers', url: 'https://sive.rs/' },
-      { text: 'Paul Graham', url: 'https://www.paulgraham.com/articles.html' },
-      { text: 'Sriram Krishnan', url: 'https://sriramk.com/' },
-      { text: 'Bartosz Ciechanowski', url: 'https://ciechanow.ski/' },
-      { text: 'Brett Victor', url: 'https://worrydream.com/' },
-    ],
-  },
   {
     title: 'Content I Like',
     items: [
-      { text: 'Sivers - Focus', url: 'https://sive.rs/berklee' },
-      { text: 'Paul Graham - How to earn a billion dollars', url: 'https://paulgraham.com/earn.html' },
-      { text: 'Paul Graham - How to work hard', url: 'https://www.paulgraham.com/hwh.html' },
-      { text: 'Marc Lou documents his way to $20,000 MRR', url: 'https://www.youtube.com/watch?app=desktop&v=UTjU_30SHIo&ra=m' },
-      { text: 'High Agency dot com', url: 'https://www.highagency.com/' },
-      { text: 'On Marriage', url: 'https://www.poetryfoundation.org/poems/148576/on-marriage-5bff1692a81b0' },
-      { text: 'The Greatest Books', url: 'https://thegreatestbooks.org/' },
-      { text: 'Every Noise at Once', url: 'https://everynoise.com/everynoise1d.html' },
-      { text: 'How to build an economic model in your spare time', url: 'https://researchswinger.org/others/model.pdf' },
-      { text: 'List of important papers from Brett V', url: 'https://worrydream.com/refs/' },
-      { text: 'List of important memos from Sriram K', url: 'https://sriramk.com/memos' },
-      { text: 'World Travel Guide', url: 'https://guide.world/' },
-      { text: 'Teach yourself CS', url: 'https://teachyourselfcs.com/' },
+      { text: 'Sivers - Focus', url: 'https://sive.rs/berklee', summary: "Sivers' Berklee speech: the standard pace is for chumps." },
+      { text: 'Paul Graham - How to earn a billion dollars', url: 'https://paulgraham.com/earn.html', summary: 'On how wealth is created by making things people want.' },
+      { text: 'Paul Graham - How to work hard', url: 'https://www.paulgraham.com/hwh.html', summary: 'On what it actually takes to do great work.' },
+      { text: 'Marc Lou documents his way to $20,000 MRR', url: 'https://www.youtube.com/watch?app=desktop&v=UTjU_30SHIo&ra=m', summary: 'An indie hacker shares how he built a profitable software business.' },
+      { text: 'High Agency dot com', url: 'https://www.highagency.com/', summary: 'On developing the trait of getting things done against the odds.' },
+      { text: 'On Marriage', url: 'https://www.poetryfoundation.org/poems/148576/on-marriage-5bff1692a81b0', summary: "Kahlil Gibran's poem on love and togetherness." },
+      { text: 'The Greatest Books', url: 'https://thegreatestbooks.org/', summary: 'An aggregated ranking of the best books of all time.' },
+      { text: 'Every Noise at Once', url: 'https://everynoise.com/everynoise1d.html', summary: 'A scrollable map of nearly every music genre in existence.' },
+      { text: 'How to build an economic model in your spare time', url: 'https://researchswinger.org/others/model.pdf', summary: "Hal Varian's practical guide to building economic models." },
+      { text: 'List of important papers from Brett V', url: 'https://worrydream.com/refs/', summary: "Brett Victor's curated reference list of influential papers and books." },
+      { text: 'List of important memos from Sriram K', url: 'https://sriramk.com/memos', summary: 'A collection of influential internal memos from tech and business.' },
+      { text: 'World Travel Guide', url: 'https://guide.world/', summary: 'A clean, opinionated guide to destinations around the world.' },
+      { text: 'Teach yourself CS', url: 'https://teachyourselfcs.com/', summary: 'A self-study curriculum covering the core of computer science.' },
+    ],
+  },
+  {
+    title: 'Blogs I Love',
+    items: [
+      { text: 'Derek Sivers', url: 'https://sive.rs/', summary: 'Short, contrarian essays on life, business, and doing your own thing.' },
+      { text: 'Paul Graham', url: 'https://www.paulgraham.com/articles.html', summary: "The Y Combinator co-founder's essays on startups, ideas, and how to think." },
+      { text: 'Sriram Krishnan', url: 'https://sriramk.com/', summary: 'Writing on technology, investing, and building products.' },
+      { text: 'Bartosz Ciechanowski', url: 'https://ciechanow.ski/', summary: 'Gorgeous interactive explainers of how things work, from gears to GPS.' },
+      { text: 'Brett Victor', url: 'https://worrydream.com/', summary: 'Visionary essays and demos on tools for thought and creative computing.' },
     ],
   },
   {
@@ -89,11 +90,16 @@ const sections: {
           {s.title}
         </h2>
         {s.items.map((it) => (
-          <p class="out" style="margin:0.1rem 0">
-            <a href={it.url} target="_blank" rel="noopener noreferrer">
-              {it.text}
-            </a>
-          </p>
+          <div style="margin:0 0 0.9rem">
+            <p class="out" style="margin:0">
+              <a href={it.url} target="_blank" rel="noopener noreferrer">
+                {it.text}
+              </a>
+            </p>
+            {it.summary && (
+              <p class="out muted" style="margin:0;font-size:13px">{it.summary}</p>
+            )}
+          </div>
         ))}
       </section>
     ))

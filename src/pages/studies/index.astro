@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+
+// Studies & papers I've found interesting — a public reading list.
+// Each item: `text` is the link label, `url` is where it points, `summary`
+// is a one-line note shown in grey below the link (edit these freely).
+// To add one, drop it into the `studies` list below.
+const studies: { text: string; url: string; summary: string }[] = [
+  {
+    text: '36 Questions',
+    url: 'https://sunshine-parenting.com/wp-content/uploads/2018/02/Arons-36-Questions.pdf',
+    summary: "Aron's set of escalating questions designed to generate closeness between two strangers.",
+  },
+  {
+    text: 'Self Confidence',
+    url: 'https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx',
+    summary: 'On the relationship between self-confidence and athletic performance.',
+  },
+  {
+    text: 'Suppression of Unwanted Thoughts',
+    url: 'https://www.science.org/doi/10.1126/sciadv.adh5292',
+    summary: 'Evidence that actively suppressing fearful thoughts can improve mental health rather than backfiring.',
+  },
+  {
+    text: 'Effect of Exercise on Depression',
+    url: 'https://www.bmj.com/content/bmj/384/bmj-2023-075847.full.pdf',
+    summary: 'A network meta-analysis finding exercise is an effective treatment for depression, with walking, running, and strength training among the most effective.',
+  },
+  {
+    text: 'Deactivating Facebook & Instagram',
+    url: 'https://www.nber.org/system/files/working_papers/w33697/w33697.pdf',
+    summary: 'A randomised experiment showing that deactivating Facebook and Instagram before an election increased happiness and reduced anxiety.',
+  },
+  {
+    text: 'Illusion and Well-Being',
+    url: 'https://faculty.washington.edu/jdb/articles/Illusion%20and%20Well-Being.pdf',
+    summary: 'Taylor & Brown argue that positive illusions about oneself are linked to better mental health.',
+  },
+  {
+    text: 'Optimism Increases Longevity',
+    url: 'https://www.pnas.org/doi/epdf/10.1073/pnas.1900712116',
+    summary: 'Higher optimism is associated with longer lifespan and greater odds of living past 85.',
+  },
+  {
+    text: 'A Wandering Mind is an Unhappy Mind',
+    url: 'https://greatergood.berkeley.edu/images/uploads/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf',
+    summary: 'Killingsworth & Gilbert find people are less happy when their minds wander, regardless of what they are doing.',
+  },
+  {
+    text: 'Repetitive Negative Thinking & Subjective Cognitive Decline',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7547434/pdf/12888_2020_Article_2884.pdf',
+    summary: 'Rumination and chronic worry are associated with subjective cognitive decline in older adults.',
+  },
+  {
+    text: 'Music Drug',
+    url: 'https://www.dazeddigital.com/science-tech/article/36327/1/music-is-the-same-as-drugs-and-sex-according-to-your-brain',
+    summary: 'Music triggers the same dopamine reward pathways in the brain as food, sex, and drugs.',
+  },
+  {
+    text: 'Placebo Sleep Affects Cognitive Functioning',
+    url: 'https://www.apa.org/pubs/journals/features/xlm-a0035546.pdf',
+    summary: 'Simply believing you slept well improves cognitive performance, independent of actual sleep quality.',
+  },
+  {
+    text: 'Sleep & Biological Ageing Clocks in Middle and Late Life',
+    url: 'https://www.nature.com/articles/s41586-026-10524-5',
+    summary: 'Links sleep patterns in middle and late life to biological measures of ageing.',
+  },
+];
+---
+
+<Base
+  title="Studies — Barnaby Napier"
+  section="studies"
+  description="A public reading list of studies and papers I've found interesting."
+>
+  <Prompt cmd="studies/" />
+  <p class="out muted" style="font-size:13px">
+    studies &amp; papers i've found interesting.
+  </p>
+
+  <section class="section" style="margin-top:1.8rem">
+    {
+      studies.map((it) => (
+        <div style="margin:0 0 0.9rem">
+          <p class="out" style="margin:0">
+            <a href={it.url} target="_blank" rel="noopener noreferrer">
+              {it.text}
+            </a>
+          </p>
+          <p class="out muted" style="margin:0;font-size:13px">{it.summary}</p>
+        </div>
+      ))
+    }
+  </section>
+</Base>
