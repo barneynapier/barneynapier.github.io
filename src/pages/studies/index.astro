@@ -3,69 +3,91 @@ import Base from '../../layouts/Base.astro';
 import Prompt from '../../components/Prompt.astro';
 
 // Studies & papers I've found interesting — a public reading list.
-// Each item: `text` is the link label, `url` is where it points, `summary`
-// is a one-line note shown in grey below the link (edit these freely).
-// To add one, drop it into the `studies` list below.
-const studies: { text: string; url: string; summary: string }[] = [
+// Each item: `text` is the link label, `summary` is a one-line note shown in
+// grey, and `url` is the original source.
+//
+// `pdf` (optional) is a self-hosted copy in /public/studies. When set, the
+// title links to our durable local copy (survives link rot). Items without a
+// `pdf` (web articles or paywalled pages we can't mirror) link to `url`.
+// To add one, drop a PDF in public/studies and reference it here.
+const studies: { text: string; url: string; summary: string; pdf?: string }[] = [
   {
     text: '36 Questions',
     url: 'https://sunshine-parenting.com/wp-content/uploads/2018/02/Arons-36-Questions.pdf',
+    pdf: '/studies/36-questions.pdf',
     summary: "Aron's set of escalating questions designed to generate closeness between two strangers.",
   },
   {
     text: 'Self Confidence',
     url: 'https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx',
-    summary: 'On the relationship between self-confidence and athletic performance.',
+    pdf: '/studies/self-efficacy.pdf',
+    summary: "Bandura's foundational paper introducing self-efficacy — the belief in your own ability — and arguing it governs whether you attempt something, how hard you try, and how long you persist.",
   },
   {
     text: 'Suppression of Unwanted Thoughts',
     url: 'https://www.science.org/doi/10.1126/sciadv.adh5292',
+    pdf: '/studies/suppression-of-thoughts.pdf',
     summary: 'Evidence that actively suppressing fearful thoughts can improve mental health rather than backfiring.',
   },
   {
     text: 'Effect of Exercise on Depression',
-    url: 'https://www.bmj.com/content/bmj/384/bmj-2023-075847.full.pdf',
+    url: 'https://www.bmj.com/content/384/bmj-2023-075847',
+    pdf: '/studies/exercise-depression.pdf',
     summary: 'A network meta-analysis finding exercise is an effective treatment for depression, with walking, running, and strength training among the most effective.',
   },
   {
     text: 'Deactivating Facebook & Instagram',
     url: 'https://www.nber.org/system/files/working_papers/w33697/w33697.pdf',
+    pdf: '/studies/deactivating-facebook-instagram.pdf',
     summary: 'A randomised experiment showing that deactivating Facebook and Instagram before an election increased happiness and reduced anxiety.',
   },
   {
     text: 'Illusion and Well-Being',
     url: 'https://faculty.washington.edu/jdb/articles/Illusion%20and%20Well-Being.pdf',
+    pdf: '/studies/illusion-and-well-being.pdf',
     summary: 'Taylor & Brown argue that positive illusions about oneself are linked to better mental health.',
   },
   {
     text: 'Optimism Increases Longevity',
-    url: 'https://www.pnas.org/doi/epdf/10.1073/pnas.1900712116',
+    url: 'https://www.pnas.org/doi/10.1073/pnas.1900712116',
+    pdf: '/studies/optimism-longevity.pdf',
     summary: 'Higher optimism is associated with longer lifespan and greater odds of living past 85.',
   },
   {
     text: 'A Wandering Mind is an Unhappy Mind',
     url: 'https://greatergood.berkeley.edu/images/uploads/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf',
+    pdf: '/studies/wandering-mind.pdf',
     summary: 'Killingsworth & Gilbert find people are less happy when their minds wander, regardless of what they are doing.',
   },
   {
     text: 'Repetitive Negative Thinking & Subjective Cognitive Decline',
-    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7547434/pdf/12888_2020_Article_2884.pdf',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7547434/',
+    pdf: '/studies/repetitive-negative-thinking.pdf',
     summary: 'Rumination and chronic worry are associated with subjective cognitive decline in older adults.',
   },
   {
     text: 'Music Drug',
     url: 'https://www.dazeddigital.com/science-tech/article/36327/1/music-is-the-same-as-drugs-and-sex-according-to-your-brain',
-    summary: 'Music triggers the same dopamine reward pathways in the brain as food, sex, and drugs.',
+    pdf: '/studies/anhedonia-to-music-and-mu-opioids.pdf',
+    summary: 'Blocking opioid receptors with naltrexone dampened both the pleasure and the displeasure people felt from music — evidence that endogenous opioids underlie musical emotion, and that music draws on the same reward pathways as food, drugs, and sex.',
   },
   {
     text: 'Placebo Sleep Affects Cognitive Functioning',
     url: 'https://www.apa.org/pubs/journals/features/xlm-a0035546.pdf',
+    pdf: '/studies/placebo-sleep.pdf',
     summary: 'Simply believing you slept well improves cognitive performance, independent of actual sleep quality.',
   },
   {
     text: 'Sleep & Biological Ageing Clocks in Middle and Late Life',
     url: 'https://www.nature.com/articles/s41586-026-10524-5',
+    pdf: '/studies/sleep-biological-ageing-clocks.pdf',
     summary: 'Links sleep patterns in middle and late life to biological measures of ageing.',
+  },
+  {
+    text: 'The Effects of Gratitude Expression on Neural Activity',
+    url: 'https://doi.org/10.1016/j.neuroimage.2015.12.040',
+    pdf: '/studies/the-effects-of-gratitude-expression-on-neural-activity.pdf',
+    summary: 'Kini et al. find a brief gratitude-letter writing intervention increases neural sensitivity to gratitude in the medial prefrontal cortex, an effect still present three months later.',
   },
 ];
 ---
@@ -85,7 +107,7 @@ const studies: { text: string; url: string; summary: string }[] = [
       studies.map((it) => (
         <div style="margin:0 0 0.9rem">
           <p class="out" style="margin:0">
-            <a href={it.url} target="_blank" rel="noopener noreferrer">
+            <a href={it.pdf ?? it.url} target="_blank" rel="noopener noreferrer">
               {it.text}
             </a>
           </p>
