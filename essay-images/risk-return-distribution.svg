@@ -1,0 +1,23 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, monospace">
+  <rect width="640" height="340" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="70" y1="285" x2="600" y2="285" stroke="#444" stroke-width="1.5"/>
+  <line x1="335" y1="70" x2="335" y2="285" stroke="#ccc" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="600,285 590,280 590,290" fill="#444"/>
+  <text x="566" y="307" font-size="13" fill="#666">returns</text>
+  <text x="330" y="305" font-size="12" fill="#999">0</text>
+  <!-- normal (symmetric) -->
+  <path d="M 90 285 C 235 285, 280 96, 335 92 C 390 96, 435 285, 580 285"
+        fill="none" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="5 5"/>
+  <!-- real returns: negative skew, heavy left (downside) tail -->
+  <path d="M 78 283 C 175 279, 245 252, 300 150 C 322 110, 338 86, 358 86 C 382 88, 416 235, 500 280 C 535 285, 558 285, 580 285"
+        fill="none" stroke="#c2531c" stroke-width="2.6"/>
+  <!-- annotation: fat downside tail -->
+  <text x="96" y="232" font-size="12.5" fill="#c2531c">fat downside tail</text>
+  <line x1="120" y1="240" x2="150" y2="262" stroke="#c2531c" stroke-width="1"/>
+  <!-- legend -->
+  <line x1="392" y1="120" x2="420" y2="120" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="428" y="124" font-size="13" fill="#666">normal</text>
+  <line x1="392" y1="142" x2="420" y2="142" stroke="#c2531c" stroke-width="2.6"/>
+  <text x="428" y="146" font-size="13" fill="#666">real returns</text>
+</svg>

@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#0d1117"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="canonical" href="https://barneynapier.github.io/books/the-quark-and-the-jaguar/"><title>The Quark and the Jaguar — Barnaby Napier</title><meta name="description" content="Barnaby Napier — builder and writer. Ex-finance / quant, based in Nairobi. Essays, book notes, and projects."><meta property="og:type" content="website"><meta property="og:title" content="The Quark and the Jaguar — Barnaby Napier"><meta property="og:description" content="Barnaby Napier — builder and writer. Ex-finance / quant, based in Nairobi. Essays, book notes, and projects."><meta property="og:url" content="https://barneynapier.github.io/books/the-quark-and-the-jaguar/"><meta name="twitter:card" content="summary"><meta name="twitter:creator" content="@barneymade"><link rel="sitemap" href="/sitemap-index.xml"><link rel="stylesheet" href="/_astro/_id_.Db9C3fx6.css"></head> <body> <header class="site-header"> <div class="bar"> <a class="brand" href="/"><span class="u">barney@napier</span>:<span class="p">~</span>$</a> <nav class="site-nav"> <a href="/writing/" class>writing</a> <a href="/books/" class="active">books</a> <a href="/links/" class>links</a> <a href="/studies/" class>studies</a> <a href="/lfg/" class>lfg</a> </nav> </div> </header> <main> <div class="wrap">  <p class="cmd">the-quark-and-the-jaguar.md</p> <div class="book-head" style="margin-top:1.4rem"> <img class="cover" src="/book-covers/the-quark-and-the-jaguar.jpg" alt="The Quark and the Jaguar cover" width="130" height="195"> <div> <h1>The Quark and the Jaguar</h1> <p class="by">Murray Gell-Mann</p> <p> <span class="stars" aria-label="5 out of 5 stars"> <span class="star on" aria-hidden="true"> ★ </span><span class="star on" aria-hidden="true"> ★ </span><span class="star on" aria-hidden="true"> ★ </span><span class="star on" aria-hidden="true"> ★ </span><span class="star on" aria-hidden="true"> ★ </span> </span> <span class="kv">&nbsp;5/5</span> </p> <p class="kv">read: 2021-11-29</p> <p class="kv"> non-fiction  · #physics </p> </div> </div> <p class="lead muted">A Nobel prize winner connects the worlds smallest particles to it&#39;s most beautiful natural structures.</p><article class="prose" style="margin-top:1.6rem"> <p>Simply put, this book is all about how the laws of physics (the quark / simple) leads to complex adaptive systems (the jaguar / complex).</p>
+<p>The first section of the book introduces us to complex systems. It talks about how they occur at the intersection of randomness and uniformity, making them definitively different from a random process. Gell-Mann goes on to explain how complex adaptive systems perform best at this intersection of uncertainty and regularity, and then gives some examples of these systems in the real world.</p>
+<p>The second section goes into fundamental Physics, which is a subject in which Gell-Mann won a nobel prize. This section is a lot like a primer of particle physics as it relates to the other topics Gell-Mann mentions. If you’re after a more complete primer of Physics as a discipline, I’d recommend <a href="https://barneynapier.github.io/#/book/the-character-of-physical-law">The Character of Physical Law</a> by Feynman. It has a lot in common with this section.</p>
+<p>Gell-Mann finishes off by bringing the first two sections together to see how complex adaptive systems perform in the real world. The focus is on Darwinian evolution, but he goes into more modern day applications of the same idea too. For example genetic machine learning algorithms (which at the time of publication must have been right at the forefront of statistical modelling).</p>
+<h2 id="complex-adaptive-systems">Complex Adaptive Systems</h2>
+<h3 id="complex-adaptive-system-p25">Complex adaptive system (p25)</h3>
+<ol>
+<li>Acuire information about environment</li>
+<li>Identify regularities</li>
+<li>Construct schema (model of the environment)</li>
+<li>Act based on that schema</li>
+<li>Reselect based on consequences (competition among schema)</li>
+</ol>
+<h3 id="complexity">Complexity</h3>
+<ul>
+<li><strong>Coarse graining</strong>
+<ul>
+<li>You need to specify a level of detail when describing a system</li>
+<li>When you do not go as detailed as possible you are using “coarse graining”</li>
+<li>Eg. Coarse grain from particles to atoms, atoms to objects</li>
+</ul>
+</li>
+<li>Context dependence - Any definition of complexity will be context dependent</li>
+<li>Definitions of complexity
+<ul>
+<li>Crude complexity = Length of shortest message that will describe a system</li>
+<li><strong>Algorithmic information content (AIC)</strong> = Length of a computer program that will print out the system description then halt</li>
+<li>Compressability = How much you can compress a string of bits (eg 1010101010 is just 10 done 5 times)</li>
+</ul>
+</li>
+</ul>
+<h3 id="randomness">Randomness</h3>
+<ul>
+<li>Definitions
+<ol>
+<li>No rule to compress its description</li>
+<li>Generated by a random process</li>
+<li>Generated by a mathematical formula so complex it is basically random (“pseudo-random”)</li>
+</ol>
+</li>
+</ul>
+<h3 id="complexity--randomness">Complexity != Randomness</h3>
+<ul>
+<li>Consider a string of random integers - Very random, not complex at all</li>
+<li><strong>Complexity comes from a balance of randomness and non-randomness</strong></li>
+<li>Current definitions only really measure randomness</li>
+<li>The difference between randomness and complexity requires “Effective complexity”</li>
+<li><strong>Effective complexity</strong> = Len(schema) used by a CAS in the system
+<ul>
+<li>Highest at the intersection of randomness and non-randomness</li>
+<li>EC plotted vs AIC looks like a pyramid</li>
+<li>AIC ~ regular + irregular</li>
+<li>EC ~ regular * irregular</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-cas">Example CAS</h3>
+<ul>
+<li><strong>Child learning a language</strong>
+<ul>
+<li>Schema = Grammar</li>
+<li>So in this case, effective complexity would be the length of the grammar textbook (makes sense)</li>
+</ul>
+</li>
+<li><strong>Bacteria developing drug resistance</strong>
+<ul>
+<li>Schema = Genotype</li>
+<li>The CAS is the whole population of bacteria, not just one</li>
+<li>Genotype = regular / mutation = random</li>
+<li>Direct adaption = Chemically changing in reaction to a drug as opposed to by evolutionary survival</li>
+</ul>
+</li>
+<li><strong>The human scientific enterprise</strong>
+<ul>
+<li>Schema = Theory</li>
+<li>Optimisation of theory = Minimise complexity of schema subject to agreeing with observation</li>
+<li>Theories should be falsifiable (Karl Popper)</li>
+<li>Unifying theories greatly compress ideas from multiple fields into one set of equations (eg. General relativity, electromagnetism)</li>
+</ul>
+</li>
+</ul>
+<h3 id="theory">Theory</h3>
+<ul>
+<li><strong>Power law</strong> distributions
+<ul>
+<li><strong>Scale independent</strong> (can multiply all ranks by a factor and nothing changes)</li>
+<li>“Self organised criticality” - Piles of sand example</li>
+</ul>
+</li>
+<li>Depth =~ Time to decompress a schema into the full description</li>
+<li>Crypticity =~ Time for a computer to find the program that compresses the description into a schema</li>
+</ul>
+<h3 id="fundamentals">Fundamentals</h3>
+<ul>
+<li>Levels of science: Maths -> Physics -> Chemistry -> Biology -> Social Science</li>
+<li><strong>A</strong> is more fundamental than <strong>B</strong> if:
+<ol>
+<li>Laws of A can explain phenomena of B</li>
+<li>Laws of A are more general than that of B</li>
+</ol>
+</li>
+<li>Eg. Quantum Electrodynamics is more fundamental than chemistry</li>
+<li><strong>Reductionism</strong> = Explaining the less fundamental in terms of the more fundamental</li>
+<li>Lowest level not always best: You cannot understand psychology by knowing the chemistry of the brain</li>
+</ul>
+<h2 id="fundamental-physics">Fundamental Physics</h2>
+<p><em>Any fundamental force must be associated with an elementary particle that is the quantum of the corresponding field</em></p>
+<h3 id="the-quantum-approach">The Quantum Approach</h3>
+<ul>
+<li>Classical physics is only an approximation</li>
+<li>Quantum state = Description of the probability distribution of position and momentum of all particles in the universe</li>
+<li>Quantum Mechanics =~ Gravitational fields + electromagnetic fields + conservation of main quantities (energy, charge, ..)</li>
+<li>Alternative histories / <strong>decoherence</strong>
+<ul>
+<li>Traditional probabilities (between 0 and 1) require history to be sufficiently coarse grained</li>
+<li>Alternative histories are actually entangled when there is not enough interference</li>
+<li>D = decoherence functional</li>
+<li>Coarse graining allows histories to decohere into independent probailities as the quantum entanglement/interference nets out among the particles</li>
+<li>This is why the single electron slit experiment can be in 2 places at once, there is no decoherence to stop it. In this situation probabilities break down</li>
+</ul>
+</li>
+</ul>
+<h3 id="quarks--the-standard-model">Quarks &#x26; the Standard Model</h3>
+<ul>
+<li>Quantum Field Theory
+<ul>
+<li>Quantum Electrodynamics = Transmission of photons between electrons</li>
+<li>Quantum Chromodynamics (strong nuclear force) = Transmission of gluons between quarks</li>
+<li>(?) Weak force = Electrons turning into electron neutrinos upon transmission of a charged quanta with a quark</li>
+</ul>
+</li>
+<li>Quarks
+<ul>
+<li>Held together by QCD</li>
+<li>Charge: up (+2/3), down (-1/3)</li>
+<li>Color: One each from red, green and blue
+<ul>
+<li>Driver of the strong force</li>
+<li>Gluons concerned with color - red-blue, blue-green, green-red gluons</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fermion families
+<ol>
+<li>Electron &#x26; neutrino, up &#x26; down quarks</li>
+<li>Muon &#x26; neutrino, charmed (+2/3) &#x26; strange (-1/3) quarks</li>
+<li>Tauon &#x26; neutrino, top (+2/3) and bottom (-1/3) quarks</li>
+</ol>
+</li>
+<li>Symmetry
+<ul>
+<li>Time</li>
+<li>Matter/antimatter</li>
+<li>Spin (elementary fermions have spin 1/2, quanta have spin 1). Higgs boson only 0 spin particle</li>
+</ul>
+</li>
+</ul>
+<h3 id="arrows-of-time">Arrows of time</h3>
+<ol>
+<li><strong>Radiative arrow</strong>: Energy radiates outward as time passes, never inward</li>
+<li><strong>Records arrow</strong>: The creation of memories, and organisation of information</li>
+<li><strong>Cosmological arrow</strong>: vThe universe is expanding</li>
+<li><strong>Thermodynamic arrow</strong>
+<ul>
+<li>2nd Law of Thermodynamics = Entropc of a closed system does not decrease</li>
+<li>Over time systems tend toward disorder (Entropy)</li>
+<li>Because disorder is so probable</li>
+<li>The initial condition of the universe was the most organised</li>
+<li>Maxwells demon
+<ul>
+<li>Organising hot/cold particles across a divide</li>
+<li>The demon himself must gain Entropy if the rest of the system loses it</li>
+<li>Comes from “shredding”, the need to delete information in order to make space for organisation</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>Universe trending toward higher maximum complexity (potential, not effective)</li>
+</ul>
+<h2 id="evolution--selection">Evolution &#x26; Selection</h2>
+<h3 id="fitness">Fitness</h3>
+<ul>
+<li>Evolutionary drive toward higher complexity
+<ul>
+<li>Diffusion from random walk of nature</li>
+<li>Amplified by gateway events</li>
+</ul>
+</li>
+<li>Markets and evolution
+<ul>
+<li>Both CASs that adapt to inefficiencies</li>
+<li>They fill niches in the system</li>
+</ul>
+</li>
+<li>Fitness landscapes
+<ul>
+<li>Getting to the lowest point on the fitness landscape = Stochastic Gradient Descent</li>
+<li>Inclusive fitness</li>
+</ul>
+</li>
+</ul>
+<h3 id="characteristics-of-creative-thinking">Characteristics of Creative Thinking</h3>
+<ul>
+<li>Disregarding a previously held belief</li>
+<li>Steps of breakthrough
+<ol>
+<li><strong>Saturation</strong> = Work hard and intensely on a problem, filling the mind with all the difficulties</li>
+<li><strong>Incubation</strong> = Carry the problem around with you, thinking it over</li>
+<li><strong>Illumination</strong> = The eureka moment, you are doing something else then the solution comes to you</li>
+</ol>
+</li>
+<li>Escaping into a deeper basin on the fitness landscape —> <strong>Introduce randomness</strong></li>
+<li>Creative characteristics
+<ul>
+<li>Dedication to the task</li>
+<li>Awareness of being trapped in an unsuitable basin</li>
+<li>Degree of comfort with teetering on the edge of basins</li>
+<li>Capacity to formulate and solve problems</li>
+</ul>
+</li>
+</ul>
+<h3 id="superstition">Superstition</h3>
+<ul>
+<li>Pattern recognition
+<ul>
+<li><strong>Superstition</strong> = Seeing a pattern in randomness</li>
+<li><strong>Skepticism</strong> = Not seeing a pattern where there is one</li>
+</ul>
+</li>
+</ul>
+<h3 id="maladaption">Maladaption</h3>
+<ul>
+<li>Why do some schemata adapt to be worse/in a bad way?</li>
+<li>3 types of adaption
+<ol>
+<li><strong>Direct adaption</strong> = Reacting to the environment, you adapt to fire by not touching it</li>
+<li><strong>Changing schema</strong> = Updating the geneaology in the case of evolution</li>
+<li><strong>Death</strong> = The exctinction of a species</li>
+</ol>
+</li>
+<li>Schema adapt to the wrong thing (looking at the wrong features)</li>
+<li>External influences impact the schema adaption (often humans)</li>
+<li>Schemata may be adapting, just doing so slowly</li>
+</ul>
+<h3 id="machine-learning">Machine Learning</h3>
+<ul>
+<li>Learning: Neural nets, genetic algorithms</li>
+<li>Simulation: Evolution, ecologies, economies</li>
+<li>Economics as a CAS
+<ul>
+<li>Economics ~ Study of incentives</li>
+<li>Uses agent based mathematics (more discrete than continuous)</li>
+<li>Economic agents are CASs with schemata</li>
+<li>They have bounded rationality and imperfect information</li>
+<li>Act based on chance and economic interest</li>
+</ul>
+</li>
+</ul> </article> <a class="back" href="/books/">cd ../</a>  </div> </main> <footer class="site-footer"> <div class="bar"> <span>© 2026 Barnaby Napier</span> <span> <a href="https://github.com/barneynapier">github</a> <span class="faint">·</span> <a href="https://twitter.com/barneymade">twitter</a> </span> </div> </footer> </body></html>
