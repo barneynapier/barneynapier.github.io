@@ -1,19 +1,11 @@
 ---
-title: Barbarian Days
-author: William Finnegan
-type: book
-is_fiction: false
+title: "Barbarian Days"
+author: "William Finnegan"
 rating: 5
-tags:
-- biography
-- adventure
-date: '2023-05-21'
-excerpt: A story of friendship and surfing adventures.
-cover_image: ../images/barbarian-days.jpg
-slug: barbarian-days
-created_at: '2025-06-03T05:10:52.012463+00:00'
-updated_at: '2025-06-03T05:10:52.012463+00:00'
-source_id: d9a75992-d57b-4101-9e96-6eedb788ed90
+is_fiction: false
+date: "2023-05-21"
+excerpt: "A story of friendship and surfing adventures."
+cover_image: barbarian-days.jpg
 ---
 
 I really enjoyed this book. It fills you with a sense of child-like adventure. Finnegan spent his life scratching his itch for surfing. Chasing the best waves in the world. Along the way its clear he kept detailed journals. Because the depth he goes into when telling stories from his childhood and young adult years is what makes the book so great. It's an autiobiography, but the quality of the storytelling lends an element of fiction to it as well (as with all good biographies).

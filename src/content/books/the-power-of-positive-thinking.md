@@ -1,18 +1,11 @@
 ---
-title: The Power of Positive Thinking
-author: Norman Vincent Peale
-type: book
-is_fiction: false
+title: "The Power of Positive Thinking"
+author: "Norman Vincent Peale"
 rating: 4
-tags:
-- self-help
-date: '2025-03-08'
-excerpt: Cultivating faith, optimism, and peaceful thought habits can transform our minds, energize our bodies, overcome obstacles, and create a happier, healthier life.
-cover_image: ../images/the-power-of-positive-thinking.jpg
-slug: the-power-of-positive-thinking
-created_at: '2025-09-17T16:18:23.850533+00:00'
-updated_at: '2025-09-17T16:19:17.109+00:00'
-source_id: 50eedd6a-0dbe-4c1c-bc98-9a53f7d7c8ce
+is_fiction: false
+date: "2025-03-08"
+excerpt: "Cultivating faith, optimism, and peaceful thought habits can transform our minds, energize our bodies, overcome obstacles, and create a happier, healthier life."
+cover_image: the-power-of-positive-thinking.jpg
 ---
 
 The philosophy is great. I like the upbeat attitude. However the book is based on religious faith in the form of applied Christianity (_"I can do all things through Christ_), therefore all the examples sound made up, and often involve _"divine intervention"_. The book could have been half the length and just as useful without all the stories. That being said, I still gave it 4 stars because the idea of positive thinking is very powerful. If there was a modern version of this book, with supporting scientific research, I would buy it in a heartbeat.

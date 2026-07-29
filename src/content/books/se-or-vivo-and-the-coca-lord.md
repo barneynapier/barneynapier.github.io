@@ -1,19 +1,11 @@
 ---
-title: Señor Vivo and the Coca Lord
-author: Louis de Bernières
-type: book
-is_fiction: true
+title: "Señor Vivo and the Coca Lord"
+author: "Louis de Bernières"
 rating: 4
-tags:
-- humour
-- classic
-date: '2023-04-06'
-excerpt: Tales from the most eventful South American village De Berniers could think of
-cover_image: ../images/se-or-vivo-and-the-coca-lord.jpg
-slug: se-or-vivo-and-the-coca-lord
-created_at: '2025-06-19T09:53:50.354139+00:00'
-updated_at: '2025-06-19T09:53:50.354139+00:00'
-source_id: 8027c6ff-80da-4a49-853c-8efd05914952
+is_fiction: true
+date: "2023-04-06"
+excerpt: "Tales from the most eventful South American village De Berniers could think of"
+cover_image: se-or-vivo-and-the-coca-lord.jpg
 ---
 
 This was my first introduction to Louis de Berniers and I loved it. The humor is dry and the language is matter of fact:

@@ -1,18 +1,11 @@
 ---
-title: Sapiens
-author: Yuval Noah Harari
-type: book
-is_fiction: false
+title: "Sapiens"
+author: "Yuval Noah Harari"
 rating: 4
-tags:
-- history
-date: '2017-09-26'
-excerpt: The history of the human race.
-cover_image: ../images/sapiens.jpg
-slug: sapiens
-created_at: '2025-06-19T11:04:50.978843+00:00'
-updated_at: '2025-06-19T11:04:50.978843+00:00'
-source_id: d946d86a-ba32-4b82-954a-8ce036d5410b
+is_fiction: false
+date: "2017-09-26"
+excerpt: "The history of the human race."
+cover_image: sapiens.jpg
 ---
 
 ## The Cognitive Revolution
@@ -25,7 +18,7 @@ source_id: d946d86a-ba32-4b82-954a-8ce036d5410b
 
 ## The Agricultural Revolution
 
-- Farming increased population but worsened individual well-being - "history's biggest fraud."
+- Farming increased population but worsened individual well-being - “history’s biggest fraud.”
 - Small choices led to irreversible societal shifts, binding humans to hard labour and inequality.
 - Humans built imagined hierarchies (e.g., nobility, gender roles) to manage complex societies.
 - Writing and record-keeping changed human thought from holistic to bureaucratic.

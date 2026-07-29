@@ -1,19 +1,11 @@
 ---
-title: Down and Out in Paris and London
-author: George Orwell
-type: book
-is_fiction: false
+title: "Down and Out in Paris and London"
+author: "George Orwell"
 rating: 4
-tags:
-- biography
-- classic
-date: '2025-06-18'
-excerpt: Part memoir, part fly-on-the-wall account of the English and French lower classes.
-cover_image: ../images/down-and-out-in-paris-and-london.jpg
-slug: down-and-out-in-paris-and-london
-created_at: '2025-06-19T11:26:03.870351+00:00'
-updated_at: '2025-06-19T11:26:03.870351+00:00'
-source_id: 0bd99255-8b2b-4c2d-87b9-d1d06d295917
+is_fiction: false
+date: "2025-06-18"
+excerpt: "Part memoir, part fly-on-the-wall account of the English and French lower classes."
+cover_image: down-and-out-in-paris-and-london.jpg
 ---
 
 The whole way through this book I kept thinking it is essentially Anthony Bourdain's Kitchen Confidential meets Knut Hamsum's Hunger. A combination of the culinary scene and dire poverty.

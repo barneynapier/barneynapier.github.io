@@ -1,18 +1,17 @@
 ---
-title: Hash Sets and Organisation
+title: "Hash Sets and Organisation"
 date: 2021-07-12
-tags: computing
 ---
 
-Some things are worth organising, while others are not. Think for a second about your own life, what do you organise? Your clothes? Books? Passwords? Emails? Chances are you implicitly follow something similar to the system I will talk about below, and if not then this should help you get a better idea of whether its worth doing so.
+Some things are worth organising, while others are not. Think for a second about your own life, what do you organise? Your clothes? Books? Passwords? Emails? Chances are you implicitly follow something similar to the system I will talk about below, and if not then this should help you get a better idea of whether it’s worth doing so.
 
-One note before I dive in, I will use "organise" and "sort" interchangebly in the rest of this essay. I am aware they are not the same at the fundamental level but the concept I'm getting acrossis the same with either action.
+One note before I dive in, I will use "organise" and "sort" interchangeably in the rest of this essay. I am aware they are not the same at the fundamental level but the concept I'm getting across is the same with either action.
 
 ## When should we organise?
 
 This is essentially the same question as why should we organise, and the answer is straightforward: Organise when doing so is less effort than searching through the unorganised version. I first read about this idea in Algorithms to Live By (Christian and Griffiths). In the book the authors talk about the trade-off between sorting and searching and explain, as I have done, that it is only worth organising your "stuff" if it takes a long time to search through all that stuff relative to the amount of time it would take to sort. The authors don't give an explicit law to follow unlike in other chapters (my favourite remains the solution to finding a partner being 1/e), however the idea is still legitimate. When the cost of searching exceeds the cost of sorting, we should sort (and vise versa).
 
-Consider two situations: Firstly, when we can quickly sort something to make it much faster so search through, we should. Take your laundry for example. After washing your clothes, drying them, and taking them out of the drier, the cost to you of organising them then and there is much less than the cost of searching for the item you need when the time comes. On the other hand, when it takes a long time to sort something which is pretty easy to search even when unsorted, we shouldnt. In this case take your email inbox, there could be thousands of emails in there, but so long as you remember something about it such as who it was from or what was in the subject, then its not really worth spending the time to put each message into its respective folder.
+Consider two situations: Firstly, when we can quickly sort something to make it much faster so search through, we should. Take your laundry for example. After washing your clothes, drying them, and taking them out of the drier, the cost to you of organising them then and there is much less than the cost of searching for the item you need when the time comes. On the other hand, when it takes a long time to sort something which is pretty easy to search even when unsorted, we shouldn’t. In this case take your email inbox, there could be thousands of emails in there, but so long as you remember something about it such as who it was from or what was in the subject, then its not really worth spending the time to put each message into its respective folder.
 
 ## How should we organise?
 

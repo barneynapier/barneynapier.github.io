@@ -8,6 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "sync": "node scripts/sync-vault.mjs",
     "deploy": "astro build && gh-pages -d dist -b gh-pages -f --dotfiles"
   },
   "dependencies": {

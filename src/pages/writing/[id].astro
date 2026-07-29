@@ -18,7 +18,7 @@ const fmt = (d: Date) => new Date(d).toISOString().slice(0, 10);
   <article class="prose" style="margin-top:1.4rem">
     <h1>{post.data.title}</h1>
     <p class="meta">
-      {fmt(post.data.date)} · {post.data.tags.map((t) => `#${t}`).join(' ')}
+      {fmt(post.data.date)}
     </p>
     <Content />
   </article>

@@ -1,19 +1,11 @@
 ---
-title: The Art of Learning
-author: Josh Waitzkin
-type: book
-is_fiction: false
+title: "The Art of Learning"
+author: "[[Josh Waitzkin]]"
 rating: 5
-tags:
-- self-help
-- biography
-date: '2025-08-28'
-excerpt: An autobiographical journey through high performance learning.
-cover_image: ../images/the-art-of-learning.jpg
-slug: the-art-of-learning
-created_at: '2025-09-10T03:06:25.810376+00:00'
-updated_at: '2025-09-10T03:06:25.810376+00:00'
-source_id: 9acfd28f-82f3-4a3b-92a2-c43b82746953
+is_fiction: false
+date: "2025-08-28"
+excerpt: "An autobiographical journey through high performance learning."
+cover_image: the-art-of-learning.jpg
 ---
 
 "_Essence_" - At its core, the key of this book is internalising the essence of any discipline's fundamentals, expanding that study to more complex topics, then relaxing so your subconcious can perform at its peak when needed.

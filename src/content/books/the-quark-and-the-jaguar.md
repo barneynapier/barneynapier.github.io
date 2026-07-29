@@ -1,18 +1,11 @@
 ---
-title: The Quark and the Jaguar
-author: Murray Gell-Mann
-type: book
-is_fiction: false
+title: "The Quark and the Jaguar"
+author: "Murray Gell-Mann"
 rating: 5
-tags:
-- physics
-date: '2021-11-29'
-excerpt: A Nobel prize winner connects the worlds smallest particles to it's most beautiful natural structures.
-cover_image: ../images/the-quark-and-the-jaguar.jpg
-slug: the-quark-and-the-jaguar
-created_at: '2025-06-03T12:37:52.473872+00:00'
-updated_at: '2025-06-05T10:38:16.529+00:00'
-source_id: fce9f534-0d42-4b66-ad08-eb682fa19876
+is_fiction: false
+date: "2021-11-29"
+excerpt: "A Nobel prize winner connects the worlds smallest particles to it's most beautiful natural structures."
+cover_image: the-quark-and-the-jaguar.jpg
 ---
 
 Simply put, this book is all about how the laws of physics (the quark / simple) leads to complex adaptive systems (the jaguar / complex).

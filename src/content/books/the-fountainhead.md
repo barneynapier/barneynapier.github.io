@@ -1,20 +1,14 @@
 ---
-title: The Fountainhead
-author: Ayn Rand
-type: book
-is_fiction: true
+title: "The Fountainhead"
+author: "Ayn Rand"
 rating: 5
-tags: []
-date: '2023-01-26'
-excerpt: An incredible tome diving into the pride and setbacks that come with forging your own path in life.
-cover_image: ../images/the-fountainhead.jpg
-slug: the-fountainhead
-created_at: '2025-06-03T12:35:50.224738+00:00'
-updated_at: '2025-06-03T12:43:01.891+00:00'
-source_id: b8af1ef1-dec4-4f87-b736-d43044e9aafd
+is_fiction: true
+date: "2023-01-26"
+excerpt: "An incredible tome diving into the pride and setbacks that come with forging your own path in life."
+cover_image: the-fountainhead.jpg
 ---
 
-What. A. Book. I've always struggled with recommending people books. Thats why I share what I myself have read instead of telling others what to read. But this book has made that question so easy to answer. It is my number one go to book to reccomend to people. It's empowering in it's idea of individuality, and motivates you to follow your own way in life as opposed to conforming into something that deep down you know you are not.
+What. A. Book. I've always struggled with recommending people books. Thats why I share what I myself have read instead of telling others what to read. But this book has made that question so easy to answer. It is my number one go to book to recommend to people. It's empowering in it's idea of individuality, and motivates you to follow your own way in life as opposed to conforming into something that deep down you know you are not.
 
 Howard Roark is the main character, and exemplifies all the ideas that Rand is writing about perfectly. He would undoubtedly be the most independent person you have ever met, if you were so lucky.
 

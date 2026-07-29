@@ -1,7 +1,6 @@
 ---
-title: Accountability
+title: "Accountability"
 date: 2020-08-02
-tags: productivity
 ---
 
 Accountability is a subtle but highly effective motivator. It thrives on the social nature of human beings, using our desire for approval to ensure we get tasks done. At its core accountability is about knowing you are responsible for something, be it the health of your child, the profit of your business or the content on your website. The accountability effect is an observation based on this, namely, that we are more motivated and diligent in our actions and thoughts when we know we are accountable for them. My personal thoughts on the reason for the effectiveness of the accountability effect are that it makes us feel important, and this sense of importance (or the fear of losing it) can ensure that we complete tasks we are accountable for.

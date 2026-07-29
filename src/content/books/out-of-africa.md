@@ -1,19 +1,11 @@
 ---
-title: Out of Africa
-author: Karen Blixen
-type: book
-is_fiction: false
+title: "Out of Africa"
+author: "Karen Blixen"
 rating: 4
-tags:
-- destination
-- biography
-date: '2024-04-23'
-excerpt: Blixen's forays into running a farm in Kenya.
-cover_image: ../images/out-of-africa.jpg
-slug: out-of-africa
-created_at: '2025-06-03T12:22:18.458518+00:00'
-updated_at: '2025-06-03T12:22:37.586+00:00'
-source_id: 4b5aa12a-2afa-46ab-b567-a16a3a2a2504
+is_fiction: false
+date: "2024-04-23"
+excerpt: "Blixen's forays into running a farm in Kenya."
+cover_image: out-of-africa.jpg
 ---
 
 This is a lovely little book that paints a beautiful picture of Africa one hundred years ago. Blixen is very detailed and often romantic in her description of the country and its inhabitants. That being said she manages to romanticise colonialism at the same time. She will introduce her houseboy, his calm personality, long thin legs, and still gaze. Almost making you forget she is talking about her servants. Or she will describe the beauty of some animals, the plains that they roam, and then how she shot them. Whether this can be excused as the normalcy of an older time is up to the reader, but there is no taking away from the poetic language Blixen uses to describe her surroundings. Interestingly, however, we learn surprisingly little about the author and her life. It's only about half way through the book we hear she has a husband, and even later on that she has children. This just goes to show that although this book would fall under the umbrella of memoirs, it is not a memoir of her life, but of the land in which she spent her time.

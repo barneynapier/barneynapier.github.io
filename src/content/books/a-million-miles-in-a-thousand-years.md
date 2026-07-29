@@ -1,19 +1,11 @@
 ---
-title: A Million Miles in a Thousand Years
-author: Donald Miller
-type: book
-is_fiction: false
+title: "A Million Miles in a Thousand Years"
+author: "Donald Miller"
 rating: 3
-tags:
-- biography
-- self-help
-date: '2019-02-14'
-excerpt: Humans thrive on stories, this book elegantly shows us how to tell and live better stories.
-cover_image: ../images/a-million-miles-in-a-thousand-years.jpg
-slug: a-million-miles-in-a-thousand-years
-created_at: '2025-06-03T12:00:12.745069+00:00'
-updated_at: '2025-06-03T12:43:32.407+00:00'
-source_id: f3cd6f8b-64d2-40dd-8c3b-0e9eb9fe71b4
+is_fiction: false
+date: "2019-02-14"
+excerpt: "Humans thrive on stories, this book elegantly shows us how to tell and live better stories."
+cover_image: a-million-miles-in-a-thousand-years.jpg
 ---
 
 This is a great book to read when you are young. It's all about 'writing your own story' in life and making memories along the way. It's very biographical too, which makes it heart-warming as well as inspirational. It is much easier to relate to Donald Miller because he is speaking from experience. It makes the book a pleasure to read too.

@@ -1,19 +1,11 @@
 ---
-title: How to Read a Book
-author: Mortimer J. Adler
-type: book
-is_fiction: false
+title: "How to Read a Book"
+author: "Mortimer J. Adler"
 rating: 5
-tags:
-- self-help
-- reading
-date: '2020-06-14'
-excerpt: A book about reading, specifically how to learn and enjoy more.
-cover_image: ../images/how-to-read-a-book.jpg
-slug: how-to-read-a-book
-created_at: '2025-06-03T12:15:47.354006+00:00'
-updated_at: '2025-06-03T12:43:16.226+00:00'
-source_id: 180add47-28ed-4482-89ed-f3cd5dc7b32c
+is_fiction: false
+date: "2020-06-14"
+excerpt: "A book about reading, specifically how to learn and enjoy more."
+cover_image: how-to-read-a-book.jpg
 ---
 
 Very detailed account of how to approach a book, how to ask it questions and how to read different types of books. The main idea is to think of a book as a conversation with the author: What are they trying to tell you, and what questions do you have? If on the other hand the book is more creative (fiction, poetry, etc), then the main goal is simply to experience the story.

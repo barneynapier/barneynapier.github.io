@@ -1,18 +1,11 @@
 ---
-title: Revolution in Time
-author: David Landess
-type: book
-is_fiction: false
+title: "Revolution in Time"
+author: "David Landess"
 rating: 4
-tags:
-- history
-date: '2022-06-16'
-excerpt: The industry of clock-making. How it started, how it went.
-cover_image: ../images/revolution-in-time.jpg
-slug: revolution-in-time
-created_at: '2025-06-03T12:24:37.34988+00:00'
-updated_at: '2025-06-03T12:24:37.34988+00:00'
-source_id: 4caf2433-9bfa-4556-b75d-0e58a4391bd1
+is_fiction: false
+date: "2022-06-16"
+excerpt: "The industry of clock-making. How it started, how it went."
+cover_image: revolution-in-time.jpg
 ---
 
 A book about the history of the mechanical clock. Its inventors, investors and consumers. I really enjoyed reading this. It's like reading a history book but looking through a very specific lens. I like it as a concept and after reading this book I added a lot more 'history of industry' books to my list.

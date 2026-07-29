@@ -1,19 +1,11 @@
 ---
-title: The Wisdom of Insecurity
-author: Alan Watts
-type: book
-is_fiction: false
+title: "The Wisdom of Insecurity"
+author: "Alan Watts"
 rating: 5
-tags:
-- philosophy
-- mindfulness
-date: '2025-02-12'
-excerpt: An organised philosophy of mindfulness and the art of living well.
-cover_image: ../images/the-wisdom-of-insecurity.jpg
-slug: the-wisdom-of-insecurity
-created_at: '2025-06-19T09:59:12.307391+00:00'
-updated_at: '2025-06-19T09:59:12.307391+00:00'
-source_id: c6f08195-3dcc-423b-a9c9-94e0dcd2cf1b
+is_fiction: false
+date: "2025-02-12"
+excerpt: "An organised philosophy of mindfulness and the art of living well."
+cover_image: the-wisdom-of-insecurity.jpg
 ---
 
 This little book has contains a lot of valuable insights. I've summarised the book here and left all my notes at the end.

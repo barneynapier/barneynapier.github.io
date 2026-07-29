@@ -1,7 +1,6 @@
 ---
-title: Monty Hall
+title: "Monty Hall"
 date: 2020-09-05
-tags: maths
 ---
 
 I remember coming across a quote somewhere that went like this: “If you can’t explain something to a computer you don’t understand it well enough”. I’ve since been looking for an interesting use case for this and have found one to satisfy my little wants in a problem called the Monty Hall problem, whose solution can often be tricky to comprehend (like it was for me). I won’t bore you with an explanation of the problem however, I’ll let Kevin Spacey do it for me [here](https://www.youtube.com/watch?v=Q5nCtgcL4jU).

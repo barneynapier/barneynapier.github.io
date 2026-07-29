@@ -1,19 +1,11 @@
 ---
-title: Man's Search for Meaning
-author: Viktor Frankl
-type: book
-is_fiction: false
+title: "Man's Search for Meaning"
+author: "Viktor Frankl"
 rating: 4
-tags:
-- biography
-- philosophy
-date: '2019-03-30'
-excerpt: A powerful reminder that even in the face of unimaginable suffering, we retain the freedom to find meaning and choose our response.
-cover_image: ../images/man-s-search-for-meaning.jpg
-slug: man-s-search-for-meaning
-created_at: '2025-06-26T17:10:32.574746+00:00'
-updated_at: '2025-06-26T17:10:32.574746+00:00'
-source_id: 3f5222ee-5047-4830-b00f-830d0831941d
+is_fiction: false
+date: "2019-03-30"
+excerpt: "A powerful reminder that even in the face of unimaginable suffering, we retain the freedom to find meaning and choose our response."
+cover_image: man-s-search-for-meaning.jpg
 ---
 
 ## The Meaning of Life and Freedom of Choice

@@ -1,18 +1,11 @@
 ---
-title: The Autobiography of Benjamin Franklin
-author: Benjamin Franklin
-type: book
-is_fiction: false
+title: "The Autobiography of Benjamin Franklin"
+author: "Benjamin Franklin"
 rating: 4
-tags:
-- biography
-date: '2019-03-28'
-excerpt: An inspirational peep into the life of one of history's most successful and multifaceted men.
-cover_image: ../images/the-autobiography-of-benjamin-franklin.jpg
-slug: the-autobiography-of-benjamin-franklin
-created_at: '2025-06-03T12:40:12.650508+00:00'
-updated_at: '2025-06-03T12:40:12.650508+00:00'
-source_id: 764001e1-2d46-47c3-90c6-f0a815cb9644
+is_fiction: false
+date: "2019-03-28"
+excerpt: "An inspirational peep into the life of one of history's most successful and multifaceted men."
+cover_image: the-autobiography-of-benjamin-franklin.jpg
 ---
 
 This book has a lot of gold in it, but you've got to put in the work to go looking for it. The old fashioned english used and the fact there is no organisation to the book (it's just one long piece of text) make it among the harder books to read. Especially at the start as you are just getting used to the language.

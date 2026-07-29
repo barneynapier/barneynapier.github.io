@@ -1,18 +1,11 @@
 ---
-title: Everything is Fucked
-author: Mark Manson
-type: book
-is_fiction: false
+title: "Everything is Fucked"
+author: "Mark Manson"
 rating: 4
-tags:
-- self-help
-date: '2021-09-18'
-excerpt: A book about hope.
-cover_image: ../images/everything-is-fucked.jpg
-slug: everything-is-fucked
-created_at: '2025-06-03T12:13:30.076415+00:00'
-updated_at: '2025-06-03T12:13:30.076415+00:00'
-source_id: 70655396-0ef4-46a8-8811-0cb5b8f9e9ab
+is_fiction: false
+date: "2021-09-18"
+excerpt: "A book about hope."
+cover_image: everything-is-fucked.jpg
 ---
 
 As humans we aim for Happiness. The opposite of happiness is not anger or sadness, its hopelessness and meaninglessness. So humans need hope and meaning. We need 3 things for this: (a) A sense of control, (b) a belief in the value of something, and (c) a community. A healthy sense of control means understanding that our feeling brain drives our actions, and instead learning to see our emotions more objectively through our thinking brain, instead of controlling them. A belief in the value of something comes from the narratives we tell ourselves about past and future experiences. And a community comes from sharing values with others and having them support our ideals. The modern world has begun to deprive us of these three things, hence why "everything is fucked". In theory people should mature from pleasure based values to transactional values to abstract values. Yet many get stuck holding transactional values because they value nothing above themselves. This can be solved through Kant's formula for humanity, which says we should treat all humans (including ourselves) as an end, and not merely a means. Finally, modern society has got so good at improving the pain people feel that we are now at a stage where we are eliminating it. As a result we have become addicted to comfort and pleasure, losing sight of better values in the process.

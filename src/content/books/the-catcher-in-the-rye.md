@@ -1,18 +1,11 @@
 ---
-title: The Catcher in the Rye
-author: J.D. Salinger
-type: book
-is_fiction: true
+title: "The Catcher in the Rye"
+author: "J.D. Salinger"
 rating: 4
-tags:
-- classic
-date: '2023-08-17'
-excerpt: A young boy ditches school.
-cover_image: ../images/the-catcher-in-the-rye.jpg
-slug: the-catcher-in-the-rye
-created_at: '2025-06-19T09:56:33.36275+00:00'
-updated_at: '2025-06-19T09:56:33.36275+00:00'
-source_id: 01f57215-7bb4-4093-be9e-a5e0fa57e4df
+is_fiction: true
+date: "2023-08-17"
+excerpt: "A young boy ditches school."
+cover_image: the-catcher-in-the-rye.jpg
 ---
 
 The book tells the story of Holden Caulifield. A 17 year old boy that goes to a fancy boarding school in Pennsylvania. Or at least he did. After failing his classes he is told that following the Christmas holidays he will be expelled. Instead of going home to his parents. He gets a local hotel room and roams the city looking for mature and intelligent conversations with fellow adults. Being a good liar and looking much older than he is, he is a convincing figure. He enjoys good literature and despises the "phony" people who put on a front to appear a certain way. He tries hard throughout the book not only to avoid being a phony, but to avoid interacting with them. The book centres around his experiences in the City as he searches for a good conversation. He basically bounces from boring person to boring person in search of a good life story.

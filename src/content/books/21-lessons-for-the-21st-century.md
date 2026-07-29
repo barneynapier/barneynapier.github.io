@@ -1,18 +1,11 @@
 ---
-title: 21 Lessons for the 21st Century
-author: Yuval Noah Harari
-type: book
-is_fiction: false
+title: "21 Lessons for the 21st Century"
+author: "Yuval Noah Harari"
 rating: 3
-tags:
-- history
-date: '2017-07-22'
-excerpt: The third in his series. After tackling the past and the future. Harari turns his attention to the present.
-cover_image: ../images/21-lessons-for-the-21st-century.jpg
-slug: 21-lessons-for-the-21st-century
-created_at: '2025-06-05T10:20:02.79231+00:00'
-updated_at: '2025-06-05T10:20:02.79231+00:00'
-source_id: df5dc907-bfa2-43aa-a076-2f7119e8c6ab
+is_fiction: false
+date: "2017-07-22"
+excerpt: "The third in his series. After tackling the past and the future. Harari turns his attention to the present."
+cover_image: 21-lessons-for-the-21st-century.jpg
 ---
 
 *Yuval Noah Harari*

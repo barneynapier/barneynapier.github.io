@@ -1,19 +1,11 @@
 ---
-title: The Art of Doing Science and Engineering
-author: Richard Hamming
-type: book
-is_fiction: false
+title: "The Art of Doing Science and Engineering"
+author: "Richard Hamming"
 rating: 5
-tags:
-- science
-- self-help
-date: '2021-05-16'
-excerpt: How does one do good work? Hamming sets forth a simple set of principles.
-cover_image: ../images/the-art-of-doing-science-and-engineering.jpg
-slug: the-art-of-doing-science-and-engineering
-created_at: '2025-06-03T12:42:08.021007+00:00'
-updated_at: '2025-06-03T12:42:08.021007+00:00'
-source_id: bef1e210-7d80-4d77-9c63-401c734343a6
+is_fiction: false
+date: "2021-05-16"
+excerpt: "How does one do good work? Hamming sets forth a simple set of principles."
+cover_image: the-art-of-doing-science-and-engineering.jpg
 ---
 
 I read this book after really enjoying reading the speech Hamming gave called [You and your research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html). If you're unsure if you want to give the whole book a read (it is a hefty tome), then start with that.

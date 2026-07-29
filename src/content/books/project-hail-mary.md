@@ -1,18 +1,11 @@
 ---
-title: Project Hail Mary
-author: Andy Weir
-type: book
-is_fiction: true
+title: "Project Hail Mary"
+author: "Andy Weir"
 rating: 5
-tags:
-- science-fiction
-date: '2025-06-10'
-excerpt: Ryland Grace wakes up froma a coma on a spaceship and doesn't who or where he is. Flashbacks slowly remind him. He is on a mission to save the Earth from an alien bacteria that is eating Earth's sun.
-cover_image: ../images/project-hail-mary.jpg
-slug: project-hail-mary
-created_at: '2025-06-12T07:43:41.341421+00:00'
-updated_at: '2025-06-12T07:44:43.768+00:00'
-source_id: d9522997-fe3f-4b82-a34b-3afaa0bf13d3
+is_fiction: true
+date: "2025-06-10"
+excerpt: "Ryland Grace wakes up froma a coma on a spaceship and doesn't who or where he is. Flashbacks slowly remind him. He is on a mission to save the Earth from an alien bacteria that is eating Earth's sun."
+cover_image: project-hail-mary.jpg
 ---
 
 Overall, this is a great book. There are twists and surprises through the book that make it a gripping read. The physics just toes the line between inetersting and not too complicated. The author must have been a physicist. The plot builds suspense, so you always want to keep reading. The narrator is funny in a mildly sarcastic and understated kind of way. The characters are developed well throughout the book, aided by the flashbacks. I enjoy books with a good plot and this was it.

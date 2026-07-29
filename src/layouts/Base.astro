@@ -6,7 +6,7 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
-  section?: 'home' | 'writing' | 'books' | 'links' | 'studies' | 'lfg';
+  section?: 'home' | 'writing' | 'books' | 'content' | 'lfg';
 }
 
 const {
@@ -48,9 +48,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
             >writing</a
           >
           <a href="/books/" class={section === 'books' ? 'active' : ''}>books</a>
-          <a href="/links/" class={section === 'links' ? 'active' : ''}>links</a>
-          <a href="/studies/" class={section === 'studies' ? 'active' : ''}
-            >studies</a
+          <a href="/content/" class={section === 'content' ? 'active' : ''}
+            >content</a
           >
           <a href="/lfg/" class={section === 'lfg' ? 'active' : ''}>lfg</a>
         </nav>

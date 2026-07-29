@@ -1,18 +1,11 @@
 ---
-title: Lessons of History
-author: Will & Ariel Durant
-type: book
-is_fiction: false
+title: "Lessons of History"
+author: "Will & Ariel Durant"
 rating: 3
-tags:
-- history
-date: '2018-06-12'
-excerpt: History doesn't repeat itself, but it does rhyme. Here's how.
-cover_image: ../images/lessons-of-history.jpg
-slug: lessons-of-history
-created_at: '2025-06-03T12:20:11.340805+00:00'
-updated_at: '2025-06-03T12:20:11.340805+00:00'
-source_id: f985643e-1051-442c-8384-20bd25f87ea7
+is_fiction: false
+date: "2018-06-12"
+excerpt: "History doesn't repeat itself, but it does rhyme. Here's how."
+cover_image: lessons-of-history.jpg
 ---
 
 Will and Ariel Durant wrote a beastly eleven-volume set of books called 'The Story of Civilization'. This book is a much more approachable summary of what the themes they found across those eleven books. I like it more than most history books I've read because it discusses themes and principles more than specific events. If you're looking to learn from history books then (as the name suggests), this one will give you some good education. Straight from the pen of those who have spent their lives studying it.

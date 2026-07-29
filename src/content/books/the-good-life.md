@@ -1,18 +1,11 @@
 ---
-title: The Good Life
-author: Robert Waldinger
-type: book
-is_fiction: false
+title: "The Good Life"
+author: "Robert Waldinger"
 rating: 5
-tags:
-- relationships
-date: '2023-09-12'
-excerpt: Lessons from the longest scientific study on happiness
-cover_image: ../images/the-good-life.jpg
-slug: the-good-life
-created_at: '2025-09-12T21:55:19.494043+00:00'
-updated_at: '2025-09-12T21:55:19.494043+00:00'
-source_id: ba3a1e22-c178-4057-a15d-3ea2ae87b675
+is_fiction: false
+date: "2023-09-12"
+excerpt: "Lessons from the longest scientific study on happiness"
+cover_image: the-good-life.jpg
 ---
 
 > _"The world we live in is the world we create."_
@@ -255,4 +248,4 @@ _"There is even some research that suggests that it’s these unexpected turns, 
 - _"It appears, quietly, as we learn how to love and how to open ourselves to being loved,"_
 - _"[We live it by] by recognizing that the good life is not a destination. It is the path itself, and the people who are walking it with you."_
 
-Think about somebody important to you. Think about what they may be struggling with. Think about what you would thank them for. Then **tell them**. 
+Think about somebody important to you. Think about what they may be struggling with. Think about what you would thank them for. Then **tell them**.

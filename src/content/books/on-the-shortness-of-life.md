@@ -1,18 +1,11 @@
 ---
-title: On the Shortness of Life
-author: Seneca
-type: book
-is_fiction: false
+title: "On the Shortness of Life"
+author: "Seneca"
 rating: 4
-tags:
-- philosophy
-date: '2020-08-18'
-excerpt: A moral essay written by Seneca to his father-in-law Paulinus. The philosopher brings up many Stoic principles on the nature of time, namely that men waste much of it in meaningless pursuits.
-cover_image: ../images/on-the-shortness-of-life.jpg
-slug: on-the-shortness-of-life
-created_at: '2025-09-10T19:24:22.456798+00:00'
-updated_at: '2025-09-10T19:24:22.456798+00:00'
-source_id: 8964fe20-50fc-4a06-a0ff-f13cc5c71d63
+is_fiction: false
+date: "2020-08-18"
+excerpt: "A moral essay written by Seneca to his father-in-law Paulinus. The philosopher brings up many Stoic principles on the nature of time, namely that men waste much of it in meaningless pursuits."
+cover_image: on-the-shortness-of-life.jpg
 ---
 
 - p2: _"It is not that we have a short space of time, but that we waste much of it."_

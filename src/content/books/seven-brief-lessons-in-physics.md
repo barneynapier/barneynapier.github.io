@@ -1,18 +1,11 @@
 ---
-title: Seven Brief Lessons in Physics
-author: Carlo Rovelli
-type: book
-is_fiction: false
+title: "Seven Brief Lessons in Physics"
+author: "Carlo Rovelli"
 rating: 4
-tags:
-- physics
-date: '2017-06-28'
-excerpt: A modern take on the fundamental lessons of the physical world.
-cover_image: ../images/seven-brief-lessons-in-physics.jpg
-slug: seven-brief-lessons-in-physics
-created_at: '2025-06-03T11:54:46.995729+00:00'
-updated_at: '2025-06-05T10:38:54.695+00:00'
-source_id: a8673af0-d015-4c4a-88ef-cea2d13e8eee
+is_fiction: false
+date: "2017-06-28"
+excerpt: "A modern take on the fundamental lessons of the physical world."
+cover_image: seven-brief-lessons-in-physics.jpg
 ---
 
 ### Most beautiful Theory

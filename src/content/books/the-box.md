@@ -1,18 +1,11 @@
 ---
-title: The Box
-author: Marc Levinson
-type: book
-is_fiction: false
+title: "The Box"
+author: "Marc Levinson"
 rating: 3
-tags:
-- history
-date: '2023-04-20'
-excerpt: How the shipping container made the world smaller and the world economy bigger.
-cover_image: ../images/the-box.jpg
-slug: the-box
-created_at: '2025-06-05T11:16:20.340043+00:00'
-updated_at: '2025-06-05T11:16:20.340043+00:00'
-source_id: a41c81cc-54fc-469e-b0ab-c5b3a3986e5f
+is_fiction: false
+date: "2023-04-20"
+excerpt: "How the shipping container made the world smaller and the world economy bigger."
+cover_image: the-box.jpg
 ---
 
 ## Chapter 1: The World the Box Made

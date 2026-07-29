@@ -1,19 +1,11 @@
 ---
-title: Against the Gods
-author: Peter Bernstein
-type: book
-is_fiction: false
+title: "Against the Gods"
+author: "Peter Bernstein"
 rating: 4
-tags:
-- mathematics
-- history
-date: '2021-08-19'
-excerpt: A brief history of risk, and how we became so scientific in analysing it
-cover_image: ../images/against-the-gods.jpg
-slug: against-the-gods
-created_at: '2025-06-03T12:09:17.447119+00:00'
-updated_at: '2025-06-03T12:09:17.447119+00:00'
-source_id: f08fc920-a482-46ad-8f46-8f7de22a68e3
+is_fiction: false
+date: "2021-08-19"
+excerpt: "A brief history of risk, and how we became so scientific in analysing it"
+cover_image: against-the-gods.jpg
 ---
 
 ## Pre 1200: Beginnings

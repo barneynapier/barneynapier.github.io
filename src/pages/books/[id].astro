@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props;
 const { Content } = await render(book);
-const { title, author, rating, is_fiction, tags, date, excerpt, cover_image } =
+const { title, author, rating, is_fiction, date, excerpt, cover_image } =
   book.data;
 
 const cover = cover_image
@@ -32,10 +32,7 @@ const fmt = (d?: Date) => (d ? new Date(d).toISOString().slice(0, 10) : '—');
         <span class="kv">&nbsp;{rating}/5</span>
       </p>
       <p class="kv">read: {fmt(date)}</p>
-      <p class="kv">
-        {is_fiction ? 'fiction' : 'non-fiction'}
-        {tags.length ? ' · ' + tags.map((t) => `#${t}`).join(' ') : ''}
-      </p>
+      <p class="kv">{is_fiction ? 'fiction' : 'non-fiction'}</p>
     </div>
   </div>
   {excerpt && <p class="lead muted">{excerpt}</p>}

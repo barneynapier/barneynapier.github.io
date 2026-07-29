@@ -1,18 +1,11 @@
 ---
-title: A Brief History of Time
-author: Stephen Hawking
-type: book
-is_fiction: false
+title: "A Brief History of Time"
+author: "Stephen Hawking"
 rating: 4
-tags:
-- physics
-date: '2017-08-14'
-excerpt: Is time real? Can black holes glow? And why does the universe even exist in the first place?
-cover_image: ../images/a-brief-history-of-time.jpg
-slug: a-brief-history-of-time
-created_at: '2025-06-05T10:38:06.289259+00:00'
-updated_at: '2025-06-05T10:38:06.289259+00:00'
-source_id: e4dd3d9e-6859-45ad-b88d-06bb9466d0b3
+is_fiction: false
+date: "2017-08-14"
+excerpt: "Is time real? Can black holes glow? And why does the universe even exist in the first place?"
+cover_image: a-brief-history-of-time.jpg
 ---
 
 ## 01. Our Picture of the Universe

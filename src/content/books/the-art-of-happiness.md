@@ -1,19 +1,11 @@
 ---
-title: The Art of Happiness
-author: Dalai Lama XIV
-type: book
-is_fiction: false
+title: "The Art of Happiness"
+author: "Dalai Lama XIV"
 rating: 5
-tags:
-- philosophy
-- self-help
-date: '2018-04-03'
-excerpt: Through conversations, stories, and meditations, the Dalai Lama shows us how to defeat day-to-day anxiety, insecurity, anger, and discouragement.
-cover_image: ../images/the-art-of-happiness.jpg
-slug: the-art-of-happiness
-created_at: '2025-09-10T19:04:08.423776+00:00'
-updated_at: '2025-09-10T19:04:08.423776+00:00'
-source_id: 434c4558-ea43-49f4-a363-9f0394cefeb2
+is_fiction: false
+date: "2018-04-03"
+excerpt: "Through conversations, stories, and meditations, the Dalai Lama shows us how to defeat day-to-day anxiety, insecurity, anger, and discouragement."
+cover_image: the-art-of-happiness.jpg
 ---
 
 ## The Right to Happiness

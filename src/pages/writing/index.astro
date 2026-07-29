@@ -21,9 +21,6 @@ const fmt = (d: Date) => new Date(d).toISOString().slice(0, 10);
         <a class="entry" href={`/writing/${post.id}/`}>
           <span class="date">{fmt(post.data.date)}</span>
           <span class="title">{post.data.title}</span>
-          <span class="tags">
-            {post.data.tags.map((t) => `#${t}`).join(' ')}
-          </span>
         </a>
       ))
     }

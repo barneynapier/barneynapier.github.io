@@ -1,18 +1,11 @@
 ---
-title: Kitchen Confidential
-author: Anthony Bourdain
-type: book
-is_fiction: false
+title: "Kitchen Confidential"
+author: "Anthony Bourdain"
 rating: 5
-tags:
-- biography
-date: '2024-10-15'
-excerpt: "Bourdain's revelatory accounts of the cooking industry as he was coming through. \n"
-cover_image: ../images/kitchen-confidential.jpg
-slug: kitchen-confidential
-created_at: '2025-06-12T08:02:30.499643+00:00'
-updated_at: '2025-06-12T08:02:30.499643+00:00'
-source_id: 651901ad-7093-4635-86fe-c30964a94865
+is_fiction: false
+date: "2024-10-15"
+excerpt: "Bourdain's revelatory accounts of the cooking industry as he was coming through."
+cover_image: kitchen-confidential.jpg
 ---
 
 This book was a pleasure to read because I really like Anthony Bourdain. His view on the world was an admirable one. He saw travel as a form of self improvement, and then walked the walk to back it up. He escaped drug addiction and long hours in the kitchen by making time for his writing amid a chaotic schedule.

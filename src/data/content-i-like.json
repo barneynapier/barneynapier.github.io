@@ -1,0 +1,341 @@
+{
+  "sections": [
+    {
+      "key": "studies",
+      "title": "Studies",
+      "items": [
+        {
+          "text": "A Wandering Mind is an Unhappy Mind",
+          "url": "https://greatergood.berkeley.edu/images/uploads/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf",
+          "summary": "Killingsworth & Gilbert find people are less happy when their minds wander, regardless of what they are doing.",
+          "pdf": "/studies/wandering-mind.pdf"
+        },
+        {
+          "text": "Arthur Arons 36 Questions",
+          "url": "https://sunshine-parenting.com/wp-content/uploads/2018/02/Arons-36-Questions.pdf",
+          "summary": "Aron's set of escalating questions designed to generate closeness between two strangers.",
+          "pdf": "/studies/36-questions.pdf"
+        },
+        {
+          "text": "Brett Victors Study List",
+          "url": "https://worrydream.com/refs/",
+          "summary": ""
+        },
+        {
+          "text": "Counting Blessings Versus Burdens",
+          "url": "https://doi.org/10.1037/0022-3514.84.2.377",
+          "summary": "Emmons & McCullough find that keeping a weekly record of things to be grateful for raises well-being and positive mood relative to recording hassles or neutral events.",
+          "pdf": "/studies/gratitude.pdf"
+        },
+        {
+          "text": "Deactivating Facebook & Instagram",
+          "url": "https://www.nber.org/system/files/working_papers/w33697/w33697.pdf",
+          "summary": "A randomised experiment showing that deactivating Facebook and Instagram before an election increased happiness and reduced anxiety.",
+          "pdf": "/studies/deactivating-facebook-instagram.pdf"
+        },
+        {
+          "text": "Effect of Exercise on Depression",
+          "url": "https://www.bmj.com/content/384/bmj-2023-075847",
+          "summary": "A network meta-analysis finding exercise is an effective treatment for depression, with walking, running, and strength training among the most effective.",
+          "pdf": "/studies/exercise-depression.pdf"
+        },
+        {
+          "text": "Human Status Criteria",
+          "url": "https://doi.org/10.1037/pspa0000206",
+          "summary": "Buss, Durkee et al. map the criteria that raise or lower social status across 14 nations, documenting both universal and sex-differentiated patterns.",
+          "pdf": "/studies/human-status.pdf"
+        },
+        {
+          "text": "Illusion and Well-Being",
+          "url": "https://faculty.washington.edu/jdb/articles/Illusion%20and%20Well-Being.pdf",
+          "summary": "Taylor & Brown argue that positive illusions about oneself are linked to better mental health.",
+          "pdf": "/studies/illusion-and-well-being.pdf"
+        },
+        {
+          "text": "Impactful Memos - Sriram Krishnan",
+          "url": "https://sriramk.com/memos",
+          "summary": ""
+        },
+        {
+          "text": "Music Drug",
+          "url": "https://www.dazeddigital.com/science-tech/article/36327/1/music-is-the-same-as-drugs-and-sex-according-to-your-brain",
+          "summary": "Blocking opioid receptors with naltrexone dampened both the pleasure and the displeasure people felt from music — evidence that endogenous opioids underlie musical emotion, and that music draws on the same reward pathways as food, drugs, and sex.",
+          "pdf": "/studies/anhedonia-to-music-and-mu-opioids.pdf"
+        },
+        {
+          "text": "Nature-Based Mindfulness",
+          "url": "https://doi.org/10.3390/ijerph16173202",
+          "summary": "Djernis et al. find that practising mindfulness outdoors in a natural setting yields larger improvements in well-being than the same training done indoors.",
+          "pdf": "/studies/nature-based-mindfulness.pdf"
+        },
+        {
+          "text": "Optimism Increases Longevity",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1900712116",
+          "summary": "Higher optimism is associated with longer lifespan and greater odds of living past 85.",
+          "pdf": "/studies/optimism-longevity.pdf"
+        },
+        {
+          "text": "Placebo Sleep Affects Cognitive Functioning",
+          "url": "https://www.apa.org/pubs/journals/features/xlm-a0035546.pdf",
+          "summary": "Simply believing you slept well improves cognitive performance, independent of actual sleep quality.",
+          "pdf": "/studies/placebo-sleep.pdf"
+        },
+        {
+          "text": "Repetitive Negative Thinking & Subjective Cognitive Decline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7547434/",
+          "summary": "Rumination and chronic worry are associated with subjective cognitive decline in older adults.",
+          "pdf": "/studies/repetitive-negative-thinking.pdf"
+        },
+        {
+          "text": "Resistance Training for Depression & Anxiety",
+          "url": "https://doi.org/10.1111/eip.13528",
+          "summary": "A meta-analysis of RCTs finding that resistance training significantly reduces depression and anxiety symptoms in young people.",
+          "pdf": "/studies/resistance-training.pdf"
+        },
+        {
+          "text": "Self Confidence",
+          "url": "https://www.trine.edu/academics/centers/center-for-sports-studies/blog/2023/the_relationship_between_self-confidence_and_performance.aspx",
+          "summary": "Bandura's foundational paper introducing self-efficacy — the belief in your own ability — and arguing it governs whether you attempt something, how hard you try, and how long you persist.",
+          "pdf": "/studies/self-efficacy.pdf"
+        },
+        {
+          "text": "Sleep & Biological Ageing Clocks in Middle and Late Life",
+          "url": "https://www.nature.com/articles/s41586-026-10524-5",
+          "summary": "Links sleep patterns in middle and late life to biological measures of ageing.",
+          "pdf": "/studies/sleep-biological-ageing-clocks.pdf"
+        },
+        {
+          "text": "Suppression of Unwanted Thoughts",
+          "url": "https://www.science.org/doi/10.1126/sciadv.adh5292",
+          "summary": "Evidence that actively suppressing fearful thoughts can improve mental health rather than backfiring.",
+          "pdf": "/studies/suppression-of-thoughts.pdf"
+        },
+        {
+          "text": "The Effects of Gratitude Expression on Neural Activity",
+          "url": "https://doi.org/10.1016/j.neuroimage.2015.12.040",
+          "summary": "Kini et al. find a brief gratitude-letter writing intervention increases neural sensitivity to gratitude in the medial prefrontal cortex, an effect still present three months later.",
+          "pdf": "/studies/the-effects-of-gratitude-expression-on-neural-activity.pdf"
+        }
+      ]
+    },
+    {
+      "key": "content",
+      "title": "Content",
+      "items": [
+        {
+          "text": "Marc Lou Self Documentary",
+          "url": "https://www.youtube.com/watch?v=UTjU_30SHIo",
+          "summary": ""
+        },
+        {
+          "text": "6 things I wish I knew the day I started Berklee",
+          "url": "https://sive.rs/berklee",
+          "summary": "6 things I wish I knew the day I started Berklee"
+        },
+        {
+          "text": "All the evidence-based advice we’ve found on how to be more successful in any job",
+          "url": "https://80000hours.org/career-guide/how-to-be-successful/",
+          "summary": "A guide to becoming more successful through greater productivity, faster learning, and better habits, based on what we've found actually works over 15+ years of research."
+        },
+        {
+          "text": "Don't End The Week With Nothing",
+          "url": "https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing",
+          "summary": "A bit of inspiration (and some hopefully actionable advice) for folks who are still working at day jobs."
+        },
+        {
+          "text": "Finding Purpose - A letter by Hunter S. Thompson",
+          "url": "https://fs.blog/hunter-s-thompson-to-hume-logan/",
+          "summary": "Hunter S. Thompson's timeless wisdom on finding purpose and meaning, written at age 22. Essential life advice for anyone feeling lost or seeking direction."
+        },
+        {
+          "text": "Guide.World",
+          "url": "https://guide.world/",
+          "summary": "List of unique travel writing aggregated by patrick collison"
+        },
+        {
+          "text": "High Agency",
+          "url": "https://www.highagency.com/",
+          "summary": "Article about what High Agency is and how to gain it"
+        },
+        {
+          "text": "How to Do What You Love",
+          "url": "https://paulgraham.com/love.html",
+          "summary": "Article on doing what you love, by Paul Graham"
+        },
+        {
+          "text": "How to Maximize Serendipity",
+          "url": "https://perell.com/essay/serendipity/",
+          "summary": "David shares how to maximize serendipity in your life through writing. Read here."
+        },
+        {
+          "text": "How to be more productive",
+          "url": "http://www.aaronsw.com/weblog/productivity",
+          "summary": ""
+        },
+        {
+          "text": "Life Advice from Patrick Collison",
+          "url": "https://patrickcollison.com/advice",
+          "summary": ""
+        },
+        {
+          "text": "Mental Wealth",
+          "url": "https://jjbeshara.com/2020/06/04/mental-wealth/",
+          "summary": "Reframe mental health from 'fix the problem' to 'invest in your mental wealth'"
+        },
+        {
+          "text": "On Marriage",
+          "url": "https://www.poetryfoundation.org/poems/148576/on-marriage-5bff1692a81b0",
+          "summary": "Poem about marriage"
+        },
+        {
+          "text": "Paul Graham - How to Earn a Billion Dollars",
+          "url": "https://paulgraham.com/earn.html",
+          "summary": ""
+        },
+        {
+          "text": "Paul Graham - How to Work Hard",
+          "url": "https://www.paulgraham.com/hwh.html",
+          "summary": ""
+        },
+        {
+          "text": "The days are long but the decades are short",
+          "url": "https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short",
+          "summary": "Life advice from Sam Altman"
+        },
+        {
+          "text": "There’s no speed limit",
+          "url": "https://sive.rs/kimo",
+          "summary": "Derek Sivers official site. Thoughts on philosophy, culture, self-improvement. Author of Useful Not True, How to Live, Hell Yeah or No, Anything You Want."
+        },
+        {
+          "text": "Things Many People Find Too Obvious To Have Told You Already",
+          "url": "https://threadreaderapp.com/thread/936615043126370306.html",
+          "summary": "Thread by @patio11: \\\"Some people really benefit from hearing advice that everyone knows, for the same reason we keep schools open despite evein them having been taught before. In that spirit, here's some quick Things Many People Find Too Obvious To H […]\\\""
+        },
+        {
+          "text": "This is Water - David Foster Wallace",
+          "url": "https://fs.blog/david-foster-wallace-this-is-water/",
+          "summary": "David Foster Wallace's remarkable 2005 commencement speech, This is Water, is a timeless trove of wisdom for living a meaningful life. Here is a full transcript along with audio."
+        },
+        {
+          "text": "Dive In",
+          "url": "https://mindingourway.com/dive-in-2/",
+          "summary": "Nate Soares' argument that you find good plans by slamming a bad plan into reality and updating, not by waiting on the sidelines for a worthy plan to appear."
+        }
+      ]
+    },
+    {
+      "key": "blogroll",
+      "title": "Blogroll",
+      "items": [
+        {
+          "text": "Andrew Bosworth",
+          "url": "https://boz.com/",
+          "summary": "Long time Meta employee that writes great essays on career and life."
+        },
+        {
+          "text": "Derek Sivers",
+          "url": "https://sive.rs/",
+          "summary": "Short, contrarian essays on life, business, and doing your own thing."
+        },
+        {
+          "text": "Paul Graham",
+          "url": "https://www.paulgraham.com/articles.html",
+          "summary": "The Y Combinator co-founder's essays on startups, ideas, and how to think."
+        },
+        {
+          "text": "Sriram Krishnan",
+          "url": "https://sriramk.com/",
+          "summary": "Writing on technology, investing, and building products."
+        },
+        {
+          "text": "Bartosz Ciechanowski",
+          "url": "https://ciechanow.ski/",
+          "summary": "Gorgeous interactive explainers of how things work, from gears to GPS."
+        },
+        {
+          "text": "Brett Victor",
+          "url": "https://worrydream.com/",
+          "summary": "Essays and demos on tools for thought and creative computing."
+        }
+      ]
+    },
+    {
+      "key": "websites-i-like",
+      "title": "Websites I Like",
+      "items": [
+        {
+          "text": "Every Noise at Once",
+          "url": "https://everynoise.com/",
+          "summary": "Database of every genre of music on Spotify, including music and examples"
+        },
+        {
+          "text": "Your Life in Months",
+          "url": "https://www.bryanbraun.com/your-life/months.html",
+          "summary": "Input your birthday to see how far through life you are. Humbling."
+        },
+        {
+          "text": "Teach Yourself CS",
+          "url": "https://teachyourselfcs.com/",
+          "summary": "Guidance and book recommendations for *actually* teaching yourself computer science."
+        },
+        {
+          "text": "The Greatest Books",
+          "url": "https://thegreatestbooks.org/",
+          "summary": "Aggregate of every \"the best books\" listicle to find the overall greatest reads."
+        },
+        {
+          "text": "IBM Ponder This",
+          "url": "https://research.ibm.com/labs/israel/ponder-this",
+          "summary": "Monthly challenge puzzle from the OG problem solvers."
+        },
+        {
+          "text": "Project Euler",
+          "url": "https://projecteuler.net/archives",
+          "summary": "Programming problems that rise in difficulty."
+        },
+        {
+          "text": "Jane Street Puzzles",
+          "url": "https://www.janestreet.com/puzzles/",
+          "summary": "I used to obsess over these when I worked in finance. Good fun."
+        }
+      ]
+    },
+    {
+      "key": "what-to-work-on",
+      "title": "What to Work On",
+      "items": [
+        {
+          "text": "Y Combinator",
+          "url": "https://www.ycombinator.com/rfs",
+          "summary": ""
+        },
+        {
+          "text": "A random google doc I found",
+          "url": "https://docs.google.com/document/d/1Vb8WWbsVyEJzl66_qqtZfFr2uLL07Y7SJH5XKldjDPY/edit?tab=t.0",
+          "summary": ""
+        },
+        {
+          "text": "Patrick Collison",
+          "url": "https://patrickcollison.com/questions",
+          "summary": ""
+        },
+        {
+          "text": "Tyler Cowen",
+          "url": "https://marginalrevolution.com/marginalrevolution/2019/12/work-on-these-things.html",
+          "summary": ""
+        },
+        {
+          "text": "Gwern",
+          "url": "https://gwern.net/note/statistic#someone-should-do-something-wishlist-of-miscellaneous-project-ideas",
+          "summary": ""
+        },
+        {
+          "text": "Nintil",
+          "url": "https://nintil.com/technology-some-people-are-excited-about/",
+          "summary": ""
+        }
+      ]
+    }
+  ]
+}

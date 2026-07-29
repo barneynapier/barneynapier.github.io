@@ -1,18 +1,11 @@
 ---
-title: The Proud Highway
-author: Hunter S Thompson
-type: book
-is_fiction: false
+title: "The Proud Highway"
+author: "Hunter S Thompson"
 rating: 5
-tags:
-- biography
-date: '2023-04-11'
-excerpt: Letters from a young HS Thompson.
-cover_image: ../images/the-proud-highway.jpg
-slug: the-proud-highway
-created_at: '2025-06-16T10:22:59.930068+00:00'
-updated_at: '2025-06-16T10:22:59.930068+00:00'
-source_id: 8ef57a0b-5619-4074-9e60-6d547888484c
+is_fiction: false
+date: "2023-04-11"
+excerpt: "Letters from a young HS Thompson."
+cover_image: the-proud-highway.jpg
 ---
 
 From the offset I could tell this book was going to be packed full of nuggets of wisdom. Admittedly, HS Thompson is not one that most people would immediately go to for life advice. But no doubt he would be proud of that. A large part of his life philosophy involved finding your own way, and not simply following the beaten path because everybody else does. He demanded of his friends the confidence to go out on their own, living as they want and not as somebody else told them to. And beyond that, he generally believed that having big balls was the main prerequisite for doing the things you want to.

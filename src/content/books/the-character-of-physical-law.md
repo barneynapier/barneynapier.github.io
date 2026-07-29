@@ -1,18 +1,11 @@
 ---
-title: The Character of Physical Law
-author: Richard Feynman
-type: book
-is_fiction: false
+title: "The Character of Physical Law"
+author: "Richard Feynman"
 rating: 5
-tags:
-- physics
-date: '2019-05-10'
-excerpt: The fundamental concepts of Physics, taught by it's best teacher.
-cover_image: ../images/the-character-of-physical-law.jpg
-slug: the-character-of-physical-law
-created_at: '2025-06-03T12:32:35.311689+00:00'
-updated_at: '2025-06-05T10:38:33.429+00:00'
-source_id: 723ddbd5-eb12-405b-824f-ff2a3079a6d5
+is_fiction: false
+date: "2019-05-10"
+excerpt: "The fundamental concepts of Physics, taught by it's best teacher."
+cover_image: the-character-of-physical-law.jpg
 ---
 
 In my opinion, when it comes to physics, Richard Feynmen is the daddy. He was known as 'the great explainer' for a reason. This book is taken from a lecture series he did at Cornell university. And true to his nickname, he explains each concept brilliantly.

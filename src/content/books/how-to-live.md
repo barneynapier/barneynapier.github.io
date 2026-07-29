@@ -1,18 +1,11 @@
 ---
-title: How To Live
-author: Sarah Bakewell
-type: book
-is_fiction: false
+title: "How To Live"
+author: "Sarah Bakewell"
 rating: 5
-tags:
-- philosophy
-date: '2022-10-06'
-excerpt: A Life of Montaigne in One Question and Twenty Attempts at an Answer
-cover_image: ../images/how-to-live.jpg
-slug: how-to-live
-created_at: '2025-06-06T07:34:43.357457+00:00'
-updated_at: '2025-06-06T07:34:43.357457+00:00'
-source_id: 044e33a2-a16e-4a04-aa74-ed408fbd2c76
+is_fiction: false
+date: "2022-10-06"
+excerpt: "A Life of Montaigne in One Question and Twenty Attempts at an Answer"
+cover_image: how-to-live.jpg
 ---
 
 **Don’t Worry About Death:** Montaigne’s near-death experience changed him. Thrown from a horse, he expected panic — but felt calm instead. That moment convinced him that death itself might not be so terrible. He realised that peasants, who never pondered mortality, often died better than philosophers. You don’t need to philosophise to die well — just to trust that nature will handle it.

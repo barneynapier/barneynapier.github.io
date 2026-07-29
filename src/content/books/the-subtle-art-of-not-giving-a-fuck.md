@@ -1,18 +1,11 @@
 ---
-title: The Subtle Art of Not Giving a Fuck
-author: Mark Manson
-type: book
-is_fiction: false
+title: "The Subtle Art of Not Giving a Fuck"
+author: "Mark Manson"
 rating: 5
-tags:
-- self-help
-date: '2020-09-29'
-excerpt: The instant classic teaching you to question your values, and give fewer fucks.
-cover_image: ../images/the-subtle-art-of-not-giving-a-fuck.jpg
-slug: the-subtle-art-of-not-giving-a-fuck
-created_at: '2025-06-03T12:34:19.797436+00:00'
-updated_at: '2025-06-03T12:34:19.797436+00:00'
-source_id: 767f6ae5-2802-44d2-aaf7-9232cde421ce
+is_fiction: false
+date: "2020-09-29"
+excerpt: "The instant classic teaching you to question your values, and give fewer fucks."
+cover_image: the-subtle-art-of-not-giving-a-fuck.jpg
 ---
 
 This is a really good book that essentially says we should find values in our lives that we see as more important than our own suffering. Such that we would willingly be uncomfortable in the name of something more important. Because happiness comes through suffering for the right causes, and coming out the other side stronger.

@@ -1,18 +1,11 @@
 ---
-title: The Six Pillars of Self Esteem
-author: Nathaniel Branden
-type: book
-is_fiction: false
+title: "The Six Pillars of Self Esteem"
+author: "Nathaniel Branden"
 rating: 5
-tags:
-- self-help
-date: '2023-06-02'
-excerpt: Why self-esteem is basic to psychological health, achievement, personal happiness, and positive relationships. And what we can do to improve it.
-cover_image: ../images/the-six-pillars-of-self-esteem.jpg
-slug: the-six-pillars-of-self-esteem
-created_at: '2025-09-14T19:20:51.008336+00:00'
-updated_at: '2025-09-14T19:20:51.008336+00:00'
-source_id: 22613681-7366-4441-b351-74efab7dec95
+is_fiction: false
+date: "2023-06-02"
+excerpt: "Why self-esteem is basic to psychological health, achievement, personal happiness, and positive relationships. And what we can do to improve it."
+cover_image: the-six-pillars-of-self-esteem.jpg
 ---
 
 > _"Of all the judgments we pass in life, none is as important as the one we pass on ourselves."_

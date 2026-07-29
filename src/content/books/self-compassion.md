@@ -1,18 +1,11 @@
 ---
-title: Self Compassion
-author: Kristen Neff
-type: book
-is_fiction: false
+title: "Self Compassion"
+author: "Kristen Neff"
 rating: 4
-tags:
-- self-help
-date: '2022-02-20'
-excerpt: How treating ourselves with the same kindness we'd show a good friend creates stronger emotional resilience and motivation than harsh self-criticism ever could.
-cover_image: ../images/self-compassion.jpg
-slug: self-compassion
-created_at: '2025-09-19T15:39:06.021982+00:00'
-updated_at: '2025-09-19T15:39:06.021982+00:00'
-source_id: 3a20f9ff-6de9-4b9e-845c-000ad97f7ada
+is_fiction: false
+date: "2022-02-20"
+excerpt: "How treating ourselves with the same kindness we'd show a good friend creates stronger emotional resilience and motivation than harsh self-criticism ever could."
+cover_image: self-compassion.jpg
 ---
 
 ## Why Self Compassion?

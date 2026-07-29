@@ -244,11 +244,6 @@ a.entry:hover .title {
   color: var(--amber);
   overflow-wrap: anywhere;
 }
-.entry .tags {
-  color: var(--fg-faint);
-  font-size: 13px;
-  white-space: nowrap;
-}
 
 /* ---------- book grid ---------- */
 .books {

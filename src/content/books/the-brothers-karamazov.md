@@ -1,17 +1,11 @@
 ---
-title: The Brothers Karamazov
-author: Fyodor Dostoevsky
-type: book
-is_fiction: true
+title: "The Brothers Karamazov"
+author: "Fyodor Dostoevsky"
 rating: 5
-tags: []
-date: '2021-07-14'
-excerpt: The famous chronicle of three Russian brothers and their involvement in a murder.
-cover_image: ../images/the-brothers-karamazov.jpg
-slug: the-brothers-karamazov
-created_at: '2025-06-03T12:27:17.848318+00:00'
-updated_at: '2025-06-03T12:27:17.848318+00:00'
-source_id: e0f30c70-df90-4b42-ac95-9d22568801df
+is_fiction: true
+date: "2021-07-14"
+excerpt: "The famous chronicle of three Russian brothers and their involvement in a murder."
+cover_image: the-brothers-karamazov.jpg
 ---
 
 ## Characters
