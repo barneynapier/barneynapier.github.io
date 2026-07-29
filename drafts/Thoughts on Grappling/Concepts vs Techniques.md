@@ -1,1 +1,0 @@
-# Concepts vs Techniques  
