@@ -2,7 +2,7 @@
   "name": "barneynapier-site",
   "type": "module",
   "version": "1.0.0",
-  "homepage": "https://barneynapier.github.io",
+  "homepage": "https://barney.md",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

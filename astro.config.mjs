@@ -5,7 +5,7 @@ import rehypeKatex from 'rehype-katex';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://barneynapier.github.io',
+  site: 'https://barney.md',
   integrations: [sitemap()],
   markdown: {
     remarkPlugins: [remarkMath],
