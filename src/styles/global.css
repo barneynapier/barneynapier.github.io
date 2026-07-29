@@ -39,7 +39,7 @@ body {
 }
 
 ::selection {
-  background: rgba(63, 185, 80, 0.25);
+  background: rgba(88, 166, 255, 0.25);
 }
 
 a {
@@ -80,8 +80,11 @@ a:hover {
 }
 
 .brand {
-  color: var(--fg-dim);
+  color: var(--fg);
   white-space: nowrap;
+}
+.brand .ext {
+  color: var(--fg-faint);
 }
 .brand:hover {
   text-decoration: none;
@@ -122,7 +125,7 @@ main {
   flex-wrap: wrap;
 }
 
-/* ---------- terminal primitives ---------- */
+/* ---------- text utilities ---------- */
 .u {
   color: var(--green);
 }
@@ -149,12 +152,14 @@ main {
 }
 
 .cmd {
-  color: var(--fg-dim);
+  color: var(--fg);
   font-size: 20px;
+  font-weight: 500;
   margin: 0 0 0.4rem;
 }
-.cmd .u {
-  color: var(--green);
+.cmd .hash {
+  color: var(--fg-faint);
+  font-weight: 400;
 }
 
 .section {
@@ -184,26 +189,6 @@ main {
 .lead {
   margin: 0.35rem 0 0;
   max-width: 42rem;
-}
-
-.cursor {
-  display: inline-block;
-  width: 8px;
-  height: 1.05em;
-  background: var(--fg);
-  vertical-align: -2px;
-  margin-left: 2px;
-  animation: blink 1.15s steps(1) infinite;
-}
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .cursor {
-    animation: none;
-  }
 }
 
 .page-title {
